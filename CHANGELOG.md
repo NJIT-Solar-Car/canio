@@ -19,3 +19,11 @@ Put all development notes/changelog stuff here. Try to format something like bel
 ```
 
 This format is adopted from [keepachangelog.com](https://keepachangelog.com).
+
+## 1c9e212
+
+first commit
+
+### Added
+
+- Added readme, changelog, and documentation for all the major ics being used.
