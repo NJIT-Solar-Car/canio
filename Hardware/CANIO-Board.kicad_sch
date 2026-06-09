@@ -4,7 +4,17 @@
 	(generator_version "9.0")
 	(uuid "a11f98b2-3b09-4cf9-8535-19e509fe91b9")
 	(paper "USLetter")
+	(title_block
+		(title "CAN IO Board")
+		(date "2026-06-09")
+		(rev "A")
+		(company "NJIT Solar Car")
+		(comment 1 "Author(s): Kostadin Madjovski, Arnav Revankar")
+	)
 	(lib_symbols)
+	(bus_alias "CAN_HL"
+		(members "CANH_+" "CANL_-")
+	)
 	(text "CAN IO Board for NJIT Solar Car"
 		(exclude_from_sim no)
 		(at 20.32 22.86 0)
@@ -33,6 +43,66 @@
 	)
 	(bus
 		(pts
+			(xy 93.98 167.64) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086eab97-badc-453c-b969-d80a2d8544ed")
+	)
+	(bus
+		(pts
+			(xy 147.32 125.73) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bfe682-0a4b-43e8-a5d8-59b8561b06ac")
+	)
+	(bus
+		(pts
+			(xy 147.32 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc801e5-4194-4204-9435-c18a8c3061b4")
+	)
+	(bus
+		(pts
+			(xy 93.98 125.73) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478cb774-1861-4dd6-9df4-1dcfb4803aba")
+	)
+	(bus
+		(pts
+			(xy 93.98 157.48) (xy 105.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478fc6ee-0632-4257-a2e2-b94c1bb4cb66")
+	)
+	(bus
+		(pts
+			(xy 93.98 162.56) (xy 105.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c042c1c-d362-4b82-8549-2075c9a4a204")
+	)
+	(bus
+		(pts
 			(xy 93.98 97.79) (xy 105.41 97.79)
 		)
 		(stroke
@@ -43,17 +113,67 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 125.73) (xy 105.41 125.73)
+			(xy 154.94 157.48) (xy 147.32 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d65d2a25-c3e3-44aa-be75-aab071d9f93c")
+		(uuid "66da7ad8-147b-4f7c-8821-489349e61eaa")
+	)
+	(bus
+		(pts
+			(xy 93.98 152.4) (xy 105.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ea9384-4df2-41a7-8dbe-fc1c17ef5fbc")
+	)
+	(bus
+		(pts
+			(xy 154.94 125.73) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac2947a-8955-4167-8900-4b15ee3386f1")
+	)
+	(bus
+		(pts
+			(xy 151.13 152.4) (xy 147.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89760a48-4226-499d-9a7c-d847d78a1a26")
+	)
+	(bus
+		(pts
+			(xy 151.13 97.79) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925e16e6-7923-48b2-82c9-92bce00321af")
+	)
+	(bus
+		(pts
+			(xy 93.98 172.72) (xy 105.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4764e2d-e3f7-4141-a68a-b5066692d29a")
 	)
 	(image
-		(at 229.87 45.085)
-		(scale 1.4523)
+		(at 224.79 54.61)
+		(scale 2.10587)
 		(uuid "0afc335b-a099-4cc3-adcf-2239e3a16153")
 		(data "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK"
 			"CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU"
@@ -315,7 +435,7 @@
 	)
 	(sheet
 		(at 105.41 121.285)
-		(size 41.275 20.955)
+		(size 41.91 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -358,7 +478,7 @@
 			)
 		)
 		(pin "{DriverOut}" input
-			(at 146.685 125.73 0)
+			(at 147.32 125.73 0)
 			(uuid "9442accf-18c4-4d01-9ac6-191d645b0fad")
 			(effects
 				(font
@@ -460,7 +580,7 @@
 			)
 		)
 		(pin "{STM32}" bidirectional
-			(at 93.98 167.64 0)
+			(at 93.98 172.72 0)
 			(uuid "e24768c1-4688-47bd-afd2-21f50dfeff9b")
 			(effects
 				(font
@@ -470,7 +590,7 @@
 			)
 		)
 		(pin "{SWD}" bidirectional
-			(at 93.98 172.72 0)
+			(at 93.98 167.64 0)
 			(uuid "59092cd4-52fa-4b49-bf39-8e7b451d0016")
 			(effects
 				(font
@@ -489,7 +609,7 @@
 	)
 	(sheet
 		(at 105.41 64.135)
-		(size 41.275 23.495)
+		(size 41.91 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -531,7 +651,7 @@
 	)
 	(sheet
 		(at 105.41 148.59)
-		(size 41.275 27.94)
+		(size 41.91 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -563,6 +683,76 @@
 				(justify left top)
 			)
 		)
+		(pin "{CAN_ADDR}" input
+			(at 105.41 152.4 180)
+			(uuid "1a4e5632-f5be-4e3b-a2f8-c1030b4b772f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{CAN_HL}" input
+			(at 147.32 152.4 0)
+			(uuid "6061a67a-acdc-4570-8bb9-27bd37eff317")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DriverOut}" input
+			(at 147.32 157.48 0)
+			(uuid "228611c3-8e20-430e-9dfa-9251b4bb877a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPIO}" input
+			(at 105.41 157.48 180)
+			(uuid "b3f50341-0d68-4866-b37d-f072f511bd23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{Misc}" input
+			(at 105.41 162.56 180)
+			(uuid "b1123ecd-97d9-4386-b740-fe217da42937")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SWD}" input
+			(at 105.41 167.64 180)
+			(uuid "22717344-64ce-4642-863d-0c4c1565def2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{STM32}" input
+			(at 105.41 172.72 180)
+			(uuid "a61dc18c-ac3f-4572-9df3-93b2ed0ca86d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9"
@@ -573,7 +763,7 @@
 	)
 	(sheet
 		(at 105.41 93.98)
-		(size 41.275 20.955)
+		(size 41.91 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -606,7 +796,7 @@
 			)
 		)
 		(pin "{CAN_HL}" input
-			(at 146.685 100.33 0)
+			(at 147.32 97.79 0)
 			(uuid "fb037126-94e8-4e0f-b8f9-7a74b92702ce")
 			(effects
 				(font
