@@ -294,7 +294,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 108.585)
+		(at 107.95 128.905)
 		(size 41.275 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -310,7 +310,7 @@
 		)
 		(uuid "2ac81ea5-d7e0-4ba7-9177-0b729c928fc7")
 		(property "Sheetname" "Load_Driver"
-			(at 100.33 107.8734 0)
+			(at 107.95 128.1934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,7 +319,7 @@
 			)
 		)
 		(property "Sheetfile" "Load_Driver.kicad_sch"
-			(at 100.33 130.1246 0)
+			(at 107.95 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,8 +336,8 @@
 		)
 	)
 	(sheet
-		(at 17.145 51.435)
-		(size 71.755 148.59)
+		(at 24.765 71.755)
+		(size 71.755 112.395)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -352,7 +352,7 @@
 		)
 		(uuid "4dc55ad2-a09c-41dc-af6c-276c818ee09a")
 		(property "Sheetname" "STM32G0B1"
-			(at 17.145 50.7234 0)
+			(at 24.765 71.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +361,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32G0B1.kicad_sch"
-			(at 17.145 200.6096 0)
+			(at 24.765 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +378,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 51.435)
+		(at 107.95 71.755)
 		(size 41.275 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -394,7 +394,7 @@
 		)
 		(uuid "689b7a23-36b5-40a7-9bc7-70c150316ec6")
 		(property "Sheetname" "Power"
-			(at 100.33 50.7234 0)
+			(at 107.95 71.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +403,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 100.33 75.5146 0)
+			(at 107.95 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,49 +420,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 170.18)
-		(size 41.275 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 202 202 255 1.0000)
-		)
-		(uuid "6ab6f051-5984-4c0c-8b62-e62b27e02cb4")
-		(property "Sheetname" "Relays"
-			(at 100.33 169.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Relays.kicad_sch"
-			(at 100.33 200.6096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CANIO-Board"
-				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 100.33 135.89)
+		(at 107.95 156.21)
 		(size 41.275 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -478,7 +436,7 @@
 		)
 		(uuid "e5b74127-3612-4017-b1e2-26fb10a2adfa")
 		(property "Sheetname" "Connectors"
-			(at 100.33 135.1784 0)
+			(at 107.95 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +445,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 100.33 164.4146 0)
+			(at 107.95 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,7 +462,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 81.28)
+		(at 107.95 101.6)
 		(size 41.275 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -520,7 +478,7 @@
 		)
 		(uuid "e8300054-67a3-4ec6-9b49-acb4ac45b460")
 		(property "Sheetname" "CAN"
-			(at 100.33 80.5684 0)
+			(at 107.95 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +487,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 100.33 102.8196 0)
+			(at 107.95 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
