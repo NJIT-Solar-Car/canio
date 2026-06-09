@@ -31,6 +31,26 @@
 		)
 		(uuid "5f23c3f6-4a36-44f1-afbb-41d6b7f00951")
 	)
+	(bus
+		(pts
+			(xy 93.98 97.79) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbecefb-c94f-4809-b152-6411d183a66c")
+	)
+	(bus
+		(pts
+			(xy 93.98 125.73) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65d2a25-c3e3-44aa-be75-aab071d9f93c")
+	)
 	(image
 		(at 229.87 45.085)
 		(scale 1.4523)
@@ -294,7 +314,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 128.905)
+		(at 105.41 121.285)
 		(size 41.275 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -310,7 +330,7 @@
 		)
 		(uuid "2ac81ea5-d7e0-4ba7-9177-0b729c928fc7")
 		(property "Sheetname" "Load_Driver"
-			(at 107.95 128.1934 0)
+			(at 105.41 120.5734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,12 +339,32 @@
 			)
 		)
 		(property "Sheetfile" "Load_Driver.kicad_sch"
-			(at 107.95 150.4446 0)
+			(at 105.41 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{Channels}" input
+			(at 105.41 125.73 180)
+			(uuid "59395314-bb19-4b0f-b773-6dc6ca072a77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DriverOut}" input
+			(at 146.685 125.73 0)
+			(uuid "9442accf-18c4-4d01-9ac6-191d645b0fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -336,7 +376,7 @@
 		)
 	)
 	(sheet
-		(at 24.765 71.755)
+		(at 22.225 64.135)
 		(size 71.755 112.395)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -352,7 +392,7 @@
 		)
 		(uuid "4dc55ad2-a09c-41dc-af6c-276c818ee09a")
 		(property "Sheetname" "STM32G0B1"
-			(at 24.765 71.0434 0)
+			(at 22.225 63.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,12 +401,82 @@
 			)
 		)
 		(property "Sheetfile" "STM32G0B1.kicad_sch"
-			(at 24.765 184.7346 0)
+			(at 22.225 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{CAN_ADDR}" bidirectional
+			(at 93.98 152.4 0)
+			(uuid "ac0dce4f-a998-4a0b-bcb3-a0082987dbdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CAN}" bidirectional
+			(at 93.98 97.79 0)
+			(uuid "7ebbf68a-bc33-4f90-aca7-135a3b581f43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{Channels}" bidirectional
+			(at 93.98 125.73 0)
+			(uuid "43898a99-0362-44e6-9a48-0c8be828e15b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPIO}" bidirectional
+			(at 93.98 157.48 0)
+			(uuid "2d62a8ef-9768-4b0f-92b9-a9e489ca92f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{Misc}" bidirectional
+			(at 93.98 162.56 0)
+			(uuid "737364b5-ca02-4d90-b4eb-24091ef511cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{STM32}" bidirectional
+			(at 93.98 167.64 0)
+			(uuid "e24768c1-4688-47bd-afd2-21f50dfeff9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SWD}" bidirectional
+			(at 93.98 172.72 0)
+			(uuid "59092cd4-52fa-4b49-bf39-8e7b451d0016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -378,7 +488,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 71.755)
+		(at 105.41 64.135)
 		(size 41.275 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -394,7 +504,7 @@
 		)
 		(uuid "689b7a23-36b5-40a7-9bc7-70c150316ec6")
 		(property "Sheetname" "Power"
-			(at 107.95 71.0434 0)
+			(at 105.41 63.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +513,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 107.95 95.8346 0)
+			(at 105.41 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +530,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 156.21)
+		(at 105.41 148.59)
 		(size 41.275 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -436,7 +546,7 @@
 		)
 		(uuid "e5b74127-3612-4017-b1e2-26fb10a2adfa")
 		(property "Sheetname" "Connectors"
-			(at 107.95 155.4984 0)
+			(at 105.41 147.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,7 +555,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 107.95 184.7346 0)
+			(at 105.41 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +572,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 101.6)
+		(at 105.41 93.98)
 		(size 41.275 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -478,7 +588,7 @@
 		)
 		(uuid "e8300054-67a3-4ec6-9b49-acb4ac45b460")
 		(property "Sheetname" "CAN"
-			(at 107.95 100.8884 0)
+			(at 105.41 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,12 +597,32 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 107.95 123.1396 0)
+			(at 105.41 115.5196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{CAN_HL}" input
+			(at 146.685 100.33 0)
+			(uuid "fb037126-94e8-4e0f-b8f9-7a74b92702ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CAN}" input
+			(at 105.41 97.79 180)
+			(uuid "a7e1efd5-4563-434e-b48b-5e1435327422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

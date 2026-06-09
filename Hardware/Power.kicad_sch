@@ -145,6 +145,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -1041,7 +1191,7 @@
 		)
 		(uuid e33c74c2-d252-411b-abe4-66169d8b5a3e)
 	)
-	(text "- All parts of the schematic are from the manufacturer's datasheet.\n- HOWEVER: What is currently UNCLEAR is the 4.7uH and 2x22uF filtering\n   setup at the output of each IC. Needs to be reviewed.\n- Illustration at https://www.desmos.com/calculator/au2a0t2rlf"
+	(text "- All parts of the schematic are from the manufacturer's datasheet.\n- TVS diode since the 12V source is exposed\n- HOWEVER: What is currently UNCLEAR is the 4.7uH and 2x22uF filtering\n   setup at the output of each IC. Needs to be reviewed.\n- Illustration at https://www.desmos.com/calculator/au2a0t2rlf"
 		(exclude_from_sim no)
 		(at 17.018 124.714 0)
 		(effects
@@ -1161,6 +1311,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0e30ccc-4ac7-481f-86fe-2c4834e39404")
+	)
+	(wire
+		(pts
+			(xy 68.58 102.87) (xy 73.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0392f48f-fdf5-4bfc-b09d-a46726586b50")
 	)
 	(wire
 		(pts
@@ -1384,6 +1544,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 102.87) (xy 57.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521b7f62-317b-457b-ac14-c0959272fb95")
+	)
+	(wire
+		(pts
 			(xy 86.36 73.66) (xy 86.36 80.01)
 		)
 		(stroke
@@ -1431,6 +1601,16 @@
 			(type default)
 		)
 		(uuid "5e151752-aa87-4162-bad6-ed604f155457")
+	)
+	(wire
+		(pts
+			(xy 60.96 102.87) (xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f544fb7-00f9-41e1-a84c-45d7e9922758")
 	)
 	(wire
 		(pts
@@ -1992,6 +2172,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 57.15 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d61cd51-3436-4253-a53a-d0a35a34b034")
+		(property "Reference" "#PWR011"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e1c1b3-e5a1-442a-b408-256e5d8d880d")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 96.52 38.1 0)
 		(unit 1)
@@ -2531,6 +2777,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a5acf2-892a-46d9-aaf7-991a026634b7")
+		(property "Reference" "#PWR012"
+			(at 73.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c51e2b3-425b-4f38-9c7c-227f218152d6")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 71.12 41.91 0)
 		(mirror y)
@@ -2811,6 +3123,74 @@
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 64.77 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c112fe7e-b4cd-428c-9482-8dfa42cf4439")
+		(property "Reference" "D1"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "492b947f-ebee-47ff-ae69-80d0ac5dc605")
+		)
+		(pin "1"
+			(uuid "3ba33a7a-5da5-4369-880d-82352a52f9a7")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
+					(reference "D1")
 					(unit 1)
 				)
 			)
