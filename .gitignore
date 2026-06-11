@@ -1,6 +1,30 @@
 # Enter other stuff to be ignored below
 
+### STM32CubeMX and IDE
 
+# Compiled Object files, Executables, and Libraries
+*.o
+*.ko
+*.elf
+*.bin
+*.hex
+*.lst
+*.map
+
+# Build Folders
+/Debug/
+/Release/
+
+# Eclipse IDE / STM32CubeIDE Metadata
+/.metadata/
+/.settings/
+/.project
+/.cproject
+*.launch
+*.pyproject
+
+# STM32CubeMX Files
+*.ioc~
 
 # Created by https://www.toptal.com/developers/gitignore/api/kicad,matlab,visualstudiocode,vim,c++,c
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad,matlab,visualstudiocode,vim,c++,c
