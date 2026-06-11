@@ -20,6 +20,51 @@ Put all development notes/changelog stuff here. Try to format something like bel
 
 This format is adopted from [keepachangelog.com](https://keepachangelog.com).
 
+## 91d809d
+
+> [!NOTE]
+> Since we are branching into two approaches (high side switch IC and relay), *this is the last commit*
+> where the development of the PCB will occur together. From here, the high current output part of
+> the schematic, as well as PCB layout and routing, will be done separately. Once the designs are
+> complete, the finished BOM and Gerbers for each will be brought back to this branch.
+
+### Added
+
+- Finished the PCB board setup in PCB editor. Relevant calculations, and notes:
+    - The board will have a 2oz (70um) outer copper thickness, and 1oz (35um) inner copper thickness.
+    - The stackup is shown below
+    - For the high current outputs, default traces (for HighPower netclass) have been set to 2mm width, which at 70um thickness will comfortably support 5A with 10 degree C temp increase. Still, copper pours *perforated with vias* is prefered. And in that case a pad must have at least 2 spokes from the surrounding copper pour.
+    - USB and CAN have differential pairs, which require 90 and 120 differential impedance respectively. For the USB diff pair, trace width and spacing is 0.2mm and 0.36mm, as per KiCAD's calculator set to JLC's fab settings. However, the 0.1mm prepreg between the top copper layer and the first ground pour is too small to support CAN's 120ohm impedance. Thus, *THERE SHOULD BE NO GROUND POUR BENEATH THE CAN LINES DIFF PAIR*. The CANH and CANL lines trace width and spacing is 1mm and 0.82mm respectively, and factors in that the *closest copper pour* (power plane in our case) is 1.42mm away as per JLC's spec. This results in $Z_{odd}$ of 60 ohms and $Z_{even}$ of 100 ohms; still not ideal but acceptable. Again, *REMOVE GROUND COPPER POUR FROM BENEATH CANH AND CANL!!!*
+    - Netclass assignments have NOT been done yet; once the schematic is complete and imported, please ***first*** complete this netclass assignment before starting any routing.
+- Next steps is finishing the high current drive portion of the schematic, re-annotating, running ERC check, exporting BOM and importing into PCB editor. From there, PCB layout and routing.
+
+| Layer | Comment |
+|:-----:|:-------:|
+| Signal + GND | High speed signals and diff pairs, surrounded by copper pour |
+| GND | Full ground plane, for referencing, etc. |
+| Power | Split plane with 5v and 3v3 as necessary. Don't route over splits |
+| Signal + Power | Low speed signals + 12V power plane |
+
+## 421d505
+
+### Changed
+
+- Replaced the buck converters AP63205WU and 203WU with drop in replacements 205QWU and 203QWU
+
+## 4b08f0e
+
+Basically replaced everything which was unavailable. High side mosfet driver/relay based output driver yet to be added in schematic. Also, buck converters need to be replaced.
+
+### Added
+
+- ECMF02-2AMX6 footprint
+
+### Changed
+
+- Replaced the G0B1KET6 with KET6N in CubeMX IOC and schematic
+- Replaced the 14 pin USB C connector with 16 pin.
+- Replaced ISOW1044 with ISO1042 + isolated DC-DC converter, followed by LC filter and LDO.
+
 ## 62c16c2
 
 ### Added
