@@ -4127,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63203WU"
+		(property "Value" "AP63203QWU-7"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -4475,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63205WU"
+		(property "Value" "AP63205QWU-7"
 			(at 49.53 73.66 0)
 			(effects
 				(font
