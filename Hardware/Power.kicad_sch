@@ -2748,7 +2748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16c0988e-568a-4b44-aeae-0a8b2b6b1099")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 88.9 45.8469 0)
 			(effects
 				(font
@@ -2802,7 +2802,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e970054-10e5-498c-92fa-9bcc7279b804")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 36.83 44.45 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b941953-04cd-4f1c-8431-2a0a18ee542f")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 27.94 48.3869 0)
 			(effects
 				(font
@@ -2938,7 +2938,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C13")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2954,7 +2954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c061e2-363c-4eb2-9496-3506bc2b95fb")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 77.47 184.15 90)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3022,7 +3022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d61cd51-3436-4253-a53a-d0a35a34b034")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c1023c-0213-4f34-a6c9-3c64f6499c15")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 49.53 97.79 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3352,7 +3352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6976be28-ed09-4599-b011-4437c8139ab0")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 27.94 83.9469 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3623,7 +3623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f6e21c-be91-468a-ab76-65b823693bed")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 99.06 45.8469 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7db56a71-0d8e-4192-be15-cc72d06063ce")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 36.83 80.01 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3913,7 +3913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a5acf2-892a-46d9-aaf7-991a026634b7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 73.66 109.22 0)
 			(effects
 				(font
@@ -3963,7 +3963,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e4f5fe2-65d7-47f6-94fa-0585a4e53931")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 68.58 40.7669 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a43613b-f0bb-42a8-b27c-4f13e8634366")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 68.58 76.3269 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad434c91-d175-4fb5-8c44-c87bb24b6f90")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 53.34 199.39 0)
 			(effects
 				(font
@@ -4249,7 +4249,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6718b5e-a5b0-4d09-8f96-7acb82dd7619")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 49.53 62.23 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9c0100-c31d-4438-9058-f7319be184ba")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 35.56 184.15 90)
 			(effects
 				(font
@@ -4383,7 +4383,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de7ef0fa-389c-42c1-85ba-a0699c472340")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 99.06 81.4069 0)
 			(effects
 				(font
@@ -4600,7 +4600,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8ad65f3-40ac-4cc6-9985-745e2e266b8b")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 88.9 81.4069 0)
 			(effects
 				(font
@@ -4669,7 +4669,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4685,7 +4685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77ce117-a9d8-4062-b512-e4dbd06537eb")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 95.25 199.39 0)
 			(effects
 				(font
@@ -4735,7 +4735,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
