@@ -2197,8 +2197,16 @@
 		(uuid "fcc42e93-6342-4eea-9abe-29239237b5e9")
 	)
 	(no_connect
+		(at 30.48 52.07)
+		(uuid "12c8ac5b-8ec7-41c8-8920-66ca838d04d7")
+	)
+	(no_connect
 		(at 30.48 67.31)
 		(uuid "200c7b88-f719-4643-a37e-614d9c0421bc")
+	)
+	(no_connect
+		(at 104.14 85.09)
+		(uuid "57a7402c-686a-4830-8346-98472fba31ec")
 	)
 	(bus_entry
 		(at 73.66 147.32)
@@ -2217,24 +2225,6 @@
 			(type default)
 		)
 		(uuid "044c5921-2cd4-4b8b-9edc-707fb34e727b")
-	)
-	(bus_entry
-		(at 39.37 162.56)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0485c184-2a22-4023-8643-b0c9d9acfcf3")
-	)
-	(bus_entry
-		(at 104.14 85.09)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076347da-00e2-47bc-97bf-db2adc8e61d1")
 	)
 	(bus_entry
 		(at 39.37 127)
@@ -2624,15 +2614,6 @@
 		(uuid "dcf43479-a3e0-43bb-8d0d-616110e431cf")
 	)
 	(bus_entry
-		(at 39.37 165.1)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecf023a4-dca2-4c05-ad7b-b560b8bd6662")
-	)
-	(bus_entry
 		(at 104.14 59.69)
 		(size 2.54 -2.54)
 		(stroke
@@ -2658,15 +2639,6 @@
 			(type default)
 		)
 		(uuid "f56fe0ee-108b-4e1c-ba01-9d2864b333c7")
-	)
-	(bus_entry
-		(at 30.48 52.07)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f643f88a-a56a-4940-b632-985593984291")
 	)
 	(bus_entry
 		(at 73.66 137.16)
@@ -3217,16 +3189,6 @@
 		)
 		(uuid "4e9a5035-f91c-4212-9256-d646f77c3c9a")
 	)
-	(bus
-		(pts
-			(xy 27.94 44.45) (xy 27.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e1d6ff-0eb9-43c8-a7d1-5f4fc8fadc0a")
-	)
 	(wire
 		(pts
 			(xy 92.71 52.07) (xy 104.14 52.07)
@@ -3426,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "652d4155-0096-4258-9a90-4423b63db888")
-	)
-	(wire
-		(pts
-			(xy 39.37 162.56) (xy 50.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6607bfdc-1104-4603-88a4-b0843f668222")
 	)
 	(wire
 		(pts
@@ -3827,16 +3779,6 @@
 		)
 		(uuid "997df2fa-774f-4307-86ae-43df58e1b8f9")
 	)
-	(bus
-		(pts
-			(xy 36.83 157.48) (xy 36.83 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab7c5a2-c7d0-4c3b-97e3-6fee19c4e84d")
-	)
 	(wire
 		(pts
 			(xy 92.71 69.85) (xy 104.14 69.85)
@@ -4177,16 +4119,6 @@
 		)
 		(uuid "cb54e7bf-8c05-45c3-a6a0-57c5ae7f9e7c")
 	)
-	(bus
-		(pts
-			(xy 106.68 80.01) (xy 106.68 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd477f8a-b016-4c04-aab0-b89a1f928c28")
-	)
 	(wire
 		(pts
 			(xy 30.48 80.01) (xy 41.91 80.01)
@@ -4379,7 +4311,7 @@
 	)
 	(bus
 		(pts
-			(xy 27.94 49.53) (xy 27.94 59.69)
+			(xy 27.94 44.45) (xy 27.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4506,26 +4438,6 @@
 			(type default)
 		)
 		(uuid "ec438308-f01f-4614-91fd-9b8ea9dd0b69")
-	)
-	(wire
-		(pts
-			(xy 39.37 165.1) (xy 50.8 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3fde58-e3bd-4654-80db-56e546cc5188")
-	)
-	(bus
-		(pts
-			(xy 36.83 160.02) (xy 36.83 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff9be83-275f-4281-bfe4-ddba1490c2ca")
 	)
 	(bus
 		(pts
@@ -5159,16 +5071,6 @@
 		)
 		(uuid "54f4a620-625b-46bb-8d00-fc10537766eb")
 	)
-	(label "CAN_STB"
-		(at 50.8 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57f2f5bf-a8c9-43d2-8253-f7d829f6eef8")
-	)
 	(label "GPIO2"
 		(at 104.14 54.61 180)
 		(effects
@@ -5329,26 +5231,6 @@
 		)
 		(uuid "9992be01-527b-4ede-ba12-25864f1d998f")
 	)
-	(label "CAN_IN"
-		(at 30.48 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ab7ec48-a16e-4477-acdc-adede553a685")
-	)
-	(label "CAN_STB"
-		(at 104.14 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2710535-bbc4-44e1-8497-f2627d0f78b3")
-	)
 	(label "NRST"
 		(at 85.09 147.32 180)
 		(effects
@@ -5378,16 +5260,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8a5eae0-1f83-44c1-844b-1d859b839e28")
-	)
-	(label "CAN_IN"
-		(at 50.8 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab47b2ae-dd55-4d90-bc5d-a91dccc0933f")
 	)
 	(label "CAN1_TX"
 		(at 30.48 64.77 0)
