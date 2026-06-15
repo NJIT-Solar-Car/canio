@@ -1208,6 +1208,25 @@
 							)
 						)
 					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -3.81 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
@@ -1816,10 +1835,10 @@
 		(uuid "34f28b63-4aeb-44e3-9d86-4aeaaf5104bd")
 	)
 	(junction
-		(at 170.18 95.25)
+		(at 198.12 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ec67aec-2f2d-4454-8505-d7fa6ec26706")
+		(uuid "3ff0cb59-9534-4b24-bb30-d75191fc33bd")
 	)
 	(junction
 		(at 128.27 45.72)
@@ -1828,10 +1847,16 @@
 		(uuid "41752e90-f526-44da-8fdd-3a1d8289eca6")
 	)
 	(junction
-		(at 185.42 95.25)
+		(at 162.56 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5fe3bd-19df-429f-b0f8-55df27005620")
+	)
+	(junction
+		(at 215.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "503a398d-4138-4ebb-9c8f-175c5bc26f74")
 	)
 	(junction
 		(at 142.24 45.72)
@@ -1876,6 +1901,12 @@
 		(uuid "7e61e080-8cf3-4c84-b486-53aeb3698fa7")
 	)
 	(junction
+		(at 193.04 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdede3c-1613-4bbc-bd0f-bec3b1c45fa2")
+	)
+	(junction
 		(at 137.16 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1892,18 +1923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde58fe4-5eca-476e-abed-881b46cd165f")
-	)
-	(junction
-		(at 160.02 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfcda267-705a-4836-bf1d-fe4e676f6e44")
-	)
-	(junction
-		(at 180.34 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdb669db-699f-4d4a-8903-79cae562e223")
 	)
 	(junction
 		(at 137.16 45.72)
@@ -2055,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 76.2) (xy 226.06 76.2)
+			(xy 190.5 76.2) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2072,16 +2091,6 @@
 			(type default)
 		)
 		(uuid "1eb29bc5-530b-4c81-b082-c1e7c67b38cc")
-	)
-	(wire
-		(pts
-			(xy 185.42 95.25) (xy 170.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5e1454-814f-4262-8924-a2b83a85ed75")
 	)
 	(bus
 		(pts
@@ -2102,16 +2111,6 @@
 			(type default)
 		)
 		(uuid "22a130f7-8834-40b1-ad41-484e8e37b1da")
-	)
-	(wire
-		(pts
-			(xy 170.18 92.71) (xy 170.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23204e09-3e8d-4cc5-aa7d-d5f68a4b698b")
 	)
 	(wire
 		(pts
@@ -2185,16 +2184,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 160.02 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39eff63a-d1c3-4756-b8fd-f3679888fe81")
-	)
-	(wire
-		(pts
 			(xy 185.42 45.72) (xy 191.77 45.72)
 		)
 		(stroke
@@ -2222,16 +2211,6 @@
 			(type default)
 		)
 		(uuid "3f1ab73e-338d-4173-a339-391beb1af15f")
-	)
-	(wire
-		(pts
-			(xy 161.29 88.9) (xy 160.02 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2b921a-c7bc-4f3b-85a0-07e205ebeec7")
 	)
 	(wire
 		(pts
@@ -2265,7 +2244,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 187.96 78.74)
+			(xy 198.12 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc1adbe-fa8d-41d4-8a90-e81bc957febe")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 95.25) (xy 215.9 95.25)
+			(xy 162.56 95.25) (xy 193.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 95.25) (xy 148.59 95.25)
+			(xy 148.59 95.25) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 81.28) (xy 215.9 95.25)
+			(xy 193.04 81.28) (xy 193.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2475,17 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 180.34 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a47862-4d63-4989-bb23-69254e32b911")
-	)
-	(wire
-		(pts
-			(xy 213.36 78.74) (xy 226.06 78.74)
+			(xy 190.5 78.74) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2555,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 180.34 76.2)
+			(xy 144.78 76.2) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +2564,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 81.28) (xy 215.9 81.28)
+			(xy 215.9 76.2) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a751bcaf-8cf8-41e4-bdef-2b97eee896f9")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2625,6 +2614,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 91.44) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b509aded-af0b-4843-a6b8-e36dcc0fbd67")
+	)
+	(wire
+		(pts
 			(xy 144.78 69.85) (xy 144.78 76.2)
 		)
 		(stroke
@@ -2635,23 +2634,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 185.42 81.28)
+			(xy 165.1 81.28) (xy 162.56 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b93daca6-b72d-49bf-ab8e-1dfe711a4a21")
-	)
-	(wire
-		(pts
-			(xy 180.34 76.2) (xy 180.34 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6eacd7-d3b5-4c84-9084-b714cd855604")
 	)
 	(wire
 		(pts
@@ -2665,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 198.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2b44c2-acc9-4e17-88b2-bdbbeb368f22")
+	)
+	(wire
+		(pts
 			(xy 113.03 73.66) (xy 115.57 73.66)
 		)
 		(stroke
@@ -2672,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "bf11bd51-d34d-4ebf-b4f6-3cdaea388c15")
+	)
+	(wire
+		(pts
+			(xy 207.01 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe8e080-881e-450b-a594-1c479d6672eb")
 	)
 	(wire
 		(pts
@@ -2795,33 +2804,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb46d636-3e72-4134-aafe-5be4ccc4beea")
-	)
-	(wire
-		(pts
-			(xy 185.42 81.28) (xy 185.42 95.25)
+			(xy 162.56 81.28) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ecc0c409-59b6-44b9-9d7b-4a53a822a3b8")
-	)
-	(wire
-		(pts
-			(xy 180.34 76.2) (xy 187.96 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee61a343-71e8-49f7-bf12-534a4a6ec478")
 	)
 	(wire
 		(pts
@@ -2832,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "f0a5a6ea-8b00-4795-b6d2-1215beb31d21")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16bd251-d6ff-471b-af2a-b950d46827f0")
 	)
 	(wire
 		(pts
@@ -3166,7 +3165,7 @@
 		(uuid "2b717c8d-c33a-4af2-ab72-7900ec0cdbd3")
 	)
 	(label "FILTERED_CAN+"
-		(at 176.53 76.2 180)
+		(at 163.83 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3176,7 +3175,7 @@
 		(uuid "3907e099-4ab9-4fc6-b937-3dc8ed809a7f")
 	)
 	(label "FILTERED_CAN-"
-		(at 176.53 78.74 180)
+		(at 163.83 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3195,7 +3194,7 @@
 		)
 		(uuid "a494bbca-4bff-4271-bff4-9fa3fdf78198")
 	)
-	(label "CANH_+"
+	(label "CAN_+"
 		(at 226.06 76.2 180)
 		(effects
 			(font
@@ -3205,7 +3204,7 @@
 		)
 		(uuid "ce159842-f4e8-468d-a13c-42a8d3a2b1cd")
 	)
-	(label "CANL_-"
+	(label "CAN_-"
 		(at 226.06 78.74 180)
 		(effects
 			(font
@@ -3398,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "60"
 			(at 139.7 82.5499 0)
 			(effects
 				(font
@@ -3407,7 +3406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -3426,6 +3425,33 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -3476,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:NME1S"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -3495,6 +3521,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -3552,7 +3605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.99 49.53 0)
 			(effects
 				(font
@@ -3571,6 +3624,33 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 173.99 49.53 0)
 			(effects
 				(font
@@ -3604,7 +3684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61be2d85-afed-4e04-8d10-9d4c1b9f796c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -3654,7 +3734,7 @@
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e8300054-67a3-4ec6-9b49-acb4ac45b460"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3688,7 +3768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -3707,6 +3787,33 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -3749,7 +3856,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "60"
 			(at 139.7 74.9299 0)
 			(effects
 				(font
@@ -3758,7 +3865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -3777,6 +3884,33 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -3827,7 +3961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -3846,6 +3980,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -3899,6 +4060,9 @@
 		(pin "15"
 			(uuid "c74bb706-f078-4444-b734-6260b37802c8")
 		)
+		(pin "14"
+			(uuid "a446a0ff-afac-44c0-b3dd-faa99fd8e752")
+		)
 		(instances
 			(project ""
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/e8300054-67a3-4ec6-9b49-acb4ac45b460"
@@ -3936,7 +4100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.99 57.15 0)
 			(effects
 				(font
@@ -3963,6 +4127,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40830ba9-51f4-4d13-9297-b4b6fb69c59d")
 		)
@@ -3980,7 +4171,7 @@
 	)
 	(symbol
 		(lib_id "symbols:ECMF2-40A100N6")
-		(at 200.66 76.2 0)
+		(at 177.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3989,7 +4180,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac366459-30dd-45d9-a424-bbadc3574e1b")
 		(property "Reference" "FILTER1"
-			(at 200.66 68.58 0)
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,15 +4188,15 @@
 			)
 		)
 		(property "Value" "ECMF02-2AMX6"
-			(at 200.66 71.12 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 76.2 0)
+		(property "Footprint" "footprints:ECMF02-2AMX6_QFN-6L"
+			(at 177.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 76.2 0)
+			(at 177.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4214,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 76.2 0)
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 177.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4278,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 170.18 88.9 0)
+		(at 207.01 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4287,7 @@
 		(fields_autoplaced yes)
 		(uuid "b06b8c82-84d7-4ffd-8718-b1ad9427c59d")
 		(property "Reference" "TVS2"
-			(at 170.18 82.55 0)
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,15 +4295,15 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 170.18 85.09 0)
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 88.9 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 88.9 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4321,34 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 170.18 88.9 0)
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC"
 			(at 121.92 54.61 0)
 			(effects
 				(font
@@ -4241,6 +4486,33 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 121.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 121.92 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 121.92 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 121.92 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -4308,6 +4580,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -4368,7 +4667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.42 53.34 0)
 			(effects
 				(font
@@ -4387,6 +4686,33 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 185.42 53.34 0)
 			(effects
 				(font
@@ -4438,7 +4764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -4457,6 +4783,33 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -4508,7 +4861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 54.61 0)
 			(effects
 				(font
@@ -4527,6 +4880,33 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
 			(at 137.16 54.61 0)
 			(effects
 				(font

@@ -13,7 +13,7 @@
 	)
 	(lib_symbols)
 	(bus_alias "CAN_HL"
-		(members "CANH_+" "CANL_-")
+		(members "CAN_+" "CAN_-")
 	)
 	(text "CAN IO Board for NJIT Solar Car"
 		(exclude_from_sim no)
