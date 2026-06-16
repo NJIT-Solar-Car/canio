@@ -20,6 +20,20 @@ Put all development notes/changelog stuff here. Try to format something like bel
 
 This format is adopted from [keepachangelog.com](https://keepachangelog.com).
 
+## 28a5f6d
+
+### Added
+
+- Finished the board.
+    - Dimensions are 100mm\*100mm, with 3mm fillet on corners.
+    - The two bottom PTHs are 4.25mm away from the bottom and side edges, and the top PTHs are 25mm away from the top.
+    - WAGO Connectors are spaced 3.371mm from each other and are spaced evenly about the center of the board, 2.68mm away from the top edge.
+    - When on, 12V is supplied to the LEFT side of the WAGO connector when facing it. 12V at the port above the small silkscreen arrow.
+    - Relays are Panasonic SPST-NO relays with no internal flyback diode. Coil voltage and current consumption is 12V 30mA, so 360mW per relay.
+    - High current output passes through solder bridges, 1mm traces (1oz outer copper, 2.4A current capacity), relays (5A), and WAGO 2601 connector. The weak link is the solder bridge which can handle 2A per channel.
+    - The input power screw terminal is capable of 15A continuous. High current pins have either 1mm traces to/from or 2 spokes of 0.5mm thermal relief.
+    - Stackup when ordering *MUST BE* JLC's 04161H-7628 with TG135 core, 1.6mm thickness 4 layer, for trace impedance purposes. CAN traces are matched to 123 Ohms as per KiCAD's calculator (plus JLC's fab parameters), have 60 + 60 termination (with capacitor), and 5mm spaced via fence at 4x the spacing. Kinda overkill but it makes sure there are no issues with noise at all.
+
 ## 91d809d
 
 > [!NOTE]
