@@ -15,6 +15,14 @@
   *
   ******************************************************************************
   */
+
+/**
+ * @defgroup CANIO_Firmware
+ * @brief All firmware for the CANIO board, *written by us*. Make sure all written 
+ * code is added to this group.
+ *
+ * @{
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -62,7 +70,6 @@ static void MX_FDCAN2_Init(void);
 void StartDefaultTask(void *argument);
 
 /* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -301,6 +308,9 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+/**
+ * @}
+ */
 /* USER CODE END 4 */
 
 /* USER CODE BEGIN Header_StartDefaultTask */
