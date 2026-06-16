@@ -1,0 +1,25 @@
+var group__DMAEx__DMAMUX__SyncSignalID__selection =
+[
+    [ "HAL_DMAMUX1_MAX_SYNC", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gad6552e8ffc06e057a070b186156b34be", null ],
+    [ "HAL_DMAMUX1_SYNC_DMAMUX1_CH0_EVT", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gadada2b2b68e80ed05b4d411deecdbe72", null ],
+    [ "HAL_DMAMUX1_SYNC_DMAMUX1_CH1_EVT", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga2c85590b782b1d7685fa2824e6e94bed", null ],
+    [ "HAL_DMAMUX1_SYNC_DMAMUX1_CH2_EVT", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga1e88be8a12f1ee518bd648d28f82c721", null ],
+    [ "HAL_DMAMUX1_SYNC_DMAMUX1_CH3_EVT", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gad06a10fa07b43143d5cb968021c53bf8", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI0", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga820c02372d1c1e24144e59727239effc", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI1", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga85872e27e47f90cab700dc10a833cd94", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI10", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gaf2cbc2c0a04f54d948fad74714b6c5e1", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI11", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gabae269717cd3e6da8a7a0889b680038b", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI12", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga873be2e68973752ffab5fb15266cf8a2", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI13", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gad45c424c88e14920ff6b209c33beb6ff", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI14", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga18c49a9d0bd809b17524dcf55c5a4b31", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI15", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga3287c620a3cfcc08306ca2c947ef8f14", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI2", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga5d2208e5bab872e1904ac24da145aaac", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI3", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga49aebb8a5b594132c81cfe58d62d8f34", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI4", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gacdf6ba29dcd1234bb57c4d83df047291", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI5", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gaf1d52fc4ad3572ec61d51d7d74e36da7", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI6", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gabc1dd752adce7b6bda440589581cc62f", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI7", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga57dd336957c9a0768f9e596bfad937bd", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI8", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#ga52a58e2dbcf0ecd1153697c4fb9d97bd", null ],
+    [ "HAL_DMAMUX1_SYNC_EXTI9", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gad9e216a8ee3525c6123d04c3c802f501", null ],
+    [ "HAL_DMAMUX1_SYNC_TIM14_OC", "d1/dd3/group__DMAEx__DMAMUX__SyncSignalID__selection.html#gacafb763ae86eefa62b63946a64f07668", null ]
+];

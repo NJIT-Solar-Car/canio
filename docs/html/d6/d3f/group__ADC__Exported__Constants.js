@@ -1,0 +1,26 @@
+var group__ADC__Exported__Constants =
+[
+    [ "ADC Error Code", "dd/d18/group__ADC__Error__Code.html", "dd/d18/group__ADC__Error__Code" ],
+    [ "ADC common - Clock source", "d2/d9c/group__ADC__HAL__EC__COMMON__CLOCK__SOURCE.html", "d2/d9c/group__ADC__HAL__EC__COMMON__CLOCK__SOURCE" ],
+    [ "ADC instance - Resolution", "d3/dd3/group__ADC__HAL__EC__RESOLUTION.html", "d3/dd3/group__ADC__HAL__EC__RESOLUTION" ],
+    [ "ADC conversion data alignment", "db/d60/group__ADC__HAL__EC__DATA__ALIGN.html", "db/d60/group__ADC__HAL__EC__DATA__ALIGN" ],
+    [ "ADC sequencer scan mode", "d3/d35/group__ADC__Scan__mode.html", "d3/d35/group__ADC__Scan__mode" ],
+    [ "ADC group regular trigger source", "dd/db3/group__ADC__regular__external__trigger__source.html", "dd/db3/group__ADC__regular__external__trigger__source" ],
+    [ "ADC group regular trigger edge (when external trigger is selected)", "d0/d1e/group__ADC__regular__external__trigger__edge.html", "d0/d1e/group__ADC__regular__external__trigger__edge" ],
+    [ "ADC sequencer end of unitary conversion or sequence conversions", "db/d51/group__ADC__EOCSelection.html", "db/d51/group__ADC__EOCSelection" ],
+    [ "ADC group regular - Overrun behavior on conversion data", "de/dd2/group__ADC__HAL__EC__REG__OVR__DATA__BEHAVIOR.html", "de/dd2/group__ADC__HAL__EC__REG__OVR__DATA__BEHAVIOR" ],
+    [ "ADC group regular - Sequencer ranks", "dc/dfe/group__ADC__HAL__EC__REG__SEQ__RANKS.html", "dc/dfe/group__ADC__HAL__EC__REG__SEQ__RANKS" ],
+    [ "ADC instance - Sampling time common to a group of channels", "d9/dd2/group__ADC__HAL__EC__SAMPLINGTIME__COMMON.html", "d9/dd2/group__ADC__HAL__EC__SAMPLINGTIME__COMMON" ],
+    [ "Channel - Sampling time", "dc/d5e/group__ADC__HAL__EC__CHANNEL__SAMPLINGTIME.html", "dc/d5e/group__ADC__HAL__EC__CHANNEL__SAMPLINGTIME" ],
+    [ "ADC instance - Channel number", "de/d9b/group__ADC__HAL__EC__CHANNEL.html", "de/d9b/group__ADC__HAL__EC__CHANNEL" ],
+    [ "Analog watchdog - ADC analog watchdog (AWD) number", "d2/d52/group__ADC__HAL__EC__AWD__NUMBER.html", "d2/d52/group__ADC__HAL__EC__AWD__NUMBER" ],
+    [ "ADC analog watchdog (AWD) mode", "d6/df0/group__ADC__analog__watchdog__mode.html", "d6/df0/group__ADC__analog__watchdog__mode" ],
+    [ "Oversampling - Ratio", "dc/dbc/group__ADC__HAL__EC__OVS__RATIO.html", "dc/dbc/group__ADC__HAL__EC__OVS__RATIO" ],
+    [ "Oversampling - Data shift", "db/dd1/group__ADC__HAL__EC__OVS__SHIFT.html", "db/dd1/group__ADC__HAL__EC__OVS__SHIFT" ],
+    [ "Oversampling - Discontinuous mode", "d6/d43/group__ADC__HAL__EC__OVS__DISCONT__MODE.html", "d6/d43/group__ADC__HAL__EC__OVS__DISCONT__MODE" ],
+    [ "ADC group regular - Trigger frequency mode", "d7/dec/group__ADC__HAL__EC__REG__TRIGGER__FREQ.html", "d7/dec/group__ADC__HAL__EC__REG__TRIGGER__FREQ" ],
+    [ "ADC Event type", "dd/d84/group__ADC__Event__type.html", "dd/d84/group__ADC__Event__type" ],
+    [ "ADC interrupts definition", "d4/da7/group__ADC__interrupts__definition.html", "d4/da7/group__ADC__interrupts__definition" ],
+    [ "ADC flags definition", "d8/d0c/group__ADC__flags__definition.html", "d8/d0c/group__ADC__flags__definition" ],
+    [ "ADC_AWD_EVENT", "d6/d3f/group__ADC__Exported__Constants.html#ga2d1d545ea1bfecba7a7081be6ef2cb93", null ]
+];

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['banks_0',['banks',['../dd/d15/structFLASH__ProcessTypeDef.html#a016a979fd0c09636363072951bc9aac8',1,'FLASH_ProcessTypeDef::Banks'],['../d8/dca/structFLASH__EraseInitTypeDef.html#a9590db921fb8d36daf38e097f68fc14f',1,'FLASH_EraseInitTypeDef::Banks']]],
+  ['battery_5fcharging_5factive_1',['battery_charging_active',['../df/d13/structPCD__HandleTypeDef.html#a2ca00f37bff016fb2a5022e4c65ba8d8',1,'PCD_HandleTypeDef']]],
+  ['battery_5fcharging_5fenable_2',['battery_charging_enable',['../db/d23/structUSB__CfgTypeDef.html#ae2c3472fe22e81c2683beabad9da7a10',1,'USB_CfgTypeDef']]],
+  ['baudrate_3',['baudrate',['../d9/de8/structIRDA__InitTypeDef.html#a3a96057c13882e04fde01040b18a0eec',1,'IRDA_InitTypeDef::BaudRate'],['../dd/ded/structSMARTCARD__InitTypeDef.html#ab7fd32cfbfc629344b4e4d5844e798cd',1,'SMARTCARD_InitTypeDef::BaudRate'],['../dd/ddc/structUART__InitTypeDef.html#ae460c2e4d7ddc67bca9f5756f45b1d83',1,'UART_InitTypeDef::BaudRate'],['../dc/de4/structUSART__InitTypeDef.html#adef2ac12c9e2091ba9f511718b30ae50',1,'USART_InitTypeDef::BaudRate']]],
+  ['baudrateprescaler_4',['BaudRatePrescaler',['../d2/dc3/structSPI__InitTypeDef.html#a1d553f90738cb633a9298d2b4d306fde',1,'SPI_InitTypeDef']]],
+  ['besl_5',['BESL',['../df/d13/structPCD__HandleTypeDef.html#aae482c358b50a9437b4ac9462ba87a75',1,'PCD_HandleTypeDef']]],
+  ['blocklength_6',['BlockLength',['../dd/ded/structSMARTCARD__InitTypeDef.html#a0055651e26fafef2a7f1e41c12618c86',1,'SMARTCARD_InitTypeDef']]],
+  ['break2afmode_7',['Break2AFMode',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#a7677d3ff44faa97ba3372b501ad09cef',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['break2filter_8',['Break2Filter',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#a3c90aabc31a34864525dad4bd3547c86',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['break2polarity_9',['Break2Polarity',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#af492d4b9f5e974abb51abe58d413cd17',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['break2state_10',['Break2State',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#ab9a983671c730c9b33852c9aa60846fb',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['breakafmode_11',['BreakAFMode',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#a97d4e42d92532e0f11b66838713d096f',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['breakfilter_12',['BreakFilter',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#aad8158e694a62f6c071975ee4c2e5b6a',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['breakpolarity_13',['BreakPolarity',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#ae15ddbf3087f9a2129a52a1317339ea7',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['breakstate_14',['BreakState',['../d8/d16/structTIM__BreakDeadTimeConfigTypeDef.html#a8962430194b43ac28a14c96dd9cc44e6',1,'TIM_BreakDeadTimeConfigTypeDef']]],
+  ['bulk_5fdoublebuffer_5fenable_15',['bulk_doublebuffer_enable',['../db/d23/structUSB__CfgTypeDef.html#a4db6265c5eaf98a682cc3b26400bd7f0',1,'USB_CfgTypeDef']]]
+];

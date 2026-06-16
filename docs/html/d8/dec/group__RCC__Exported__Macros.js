@@ -1,0 +1,27 @@
+var group__RCC__Exported__Macros =
+[
+    [ "AHB Peripheral Clock Enable Disable", "d7/dd3/group__RCC__AHB__Peripheral__Clock__Enable__Disable.html", "d7/dd3/group__RCC__AHB__Peripheral__Clock__Enable__Disable" ],
+    [ "IOPORT Clock Enable Disable", "d9/d96/group__RCC__IOPORT__Clock__Enable__Disable.html", "d9/d96/group__RCC__IOPORT__Clock__Enable__Disable" ],
+    [ "APB1 Peripheral Clock Enable Disable", "d3/da7/group__RCC__APB1__Clock__Enable__Disable.html", "d3/da7/group__RCC__APB1__Clock__Enable__Disable" ],
+    [ "APB2 Peripheral Clock Enable Disable", "d4/d19/group__RCC__APB2__Clock__Enable__Disable.html", "d4/d19/group__RCC__APB2__Clock__Enable__Disable" ],
+    [ "AHB Peripheral Clock Enabled or Disabled Status", "d0/d93/group__RCC__AHB__Peripheral__Clock__Enabled__Disabled__Status.html", "d0/d93/group__RCC__AHB__Peripheral__Clock__Enabled__Disabled__Status" ],
+    [ "IOPORT Clock Enabled or Disabled Status", "db/d9b/group__RCC__IOPORT__Clock__Enabled__Disabled__Status.html", "db/d9b/group__RCC__IOPORT__Clock__Enabled__Disabled__Status" ],
+    [ "APB1 Peripheral Clock Enabled or Disabled Status", "df/db9/group__RCC__APB1__Clock__Enabled__Disabled__Status.html", "df/db9/group__RCC__APB1__Clock__Enabled__Disabled__Status" ],
+    [ "APB2 Peripheral Clock Enabled or Disabled Status", "d4/dd2/group__RCC__APB2__Clock__Enabled__Disabled__Status.html", "d4/dd2/group__RCC__APB2__Clock__Enabled__Disabled__Status" ],
+    [ "AHB Peripheral Force Release Reset", "de/d20/group__RCC__AHB__Force__Release__Reset.html", "de/d20/group__RCC__AHB__Force__Release__Reset" ],
+    [ "IOPORT Force Release Reset", "d2/d4b/group__RCC__IOPORT__Force__Release__Reset.html", "d2/d4b/group__RCC__IOPORT__Force__Release__Reset" ],
+    [ "APB1 Peripheral Force Release Reset", "d2/d18/group__RCC__APB1__Force__Release__Reset.html", "d2/d18/group__RCC__APB1__Force__Release__Reset" ],
+    [ "APB2 Peripheral Force Release Reset", "df/d3a/group__RCC__APB2__Force__Release__Reset.html", "df/d3a/group__RCC__APB2__Force__Release__Reset" ],
+    [ "AHB Peripherals Clock Sleep Enable Disable", "d9/dfb/group__RCC__AHB__Clock__Sleep__Enable__Disable.html", "d9/dfb/group__RCC__AHB__Clock__Sleep__Enable__Disable" ],
+    [ "IOPORT Clock Sleep Enable Disable", "d4/dc7/group__RCC__IOPORT__Clock__Sleep__Enable__Disable.html", "d4/dc7/group__RCC__IOPORT__Clock__Sleep__Enable__Disable" ],
+    [ "APB1 Peripheral Clock Sleep Enable Disable", "d2/d9e/group__RCC__APB1__Clock__Sleep__Enable__Disable.html", "d2/d9e/group__RCC__APB1__Clock__Sleep__Enable__Disable" ],
+    [ "APB2 Peripheral Clock Sleep Enable Disable", "da/d0b/group__RCC__APB2__Clock__Sleep__Enable__Disable.html", "da/d0b/group__RCC__APB2__Clock__Sleep__Enable__Disable" ],
+    [ "AHB Peripheral Clock Sleep Enabled or Disabled Status", "dd/d1b/group__RCC__AHB__Clock__Sleep__Enabled__Disabled__Status.html", "dd/d1b/group__RCC__AHB__Clock__Sleep__Enabled__Disabled__Status" ],
+    [ "IOPORT Clock Sleep Enabled or Disabled Status", "dc/de1/group__RCC__IOPORT__Clock__Sleep__Enabled__Disabled__Status.html", "dc/de1/group__RCC__IOPORT__Clock__Sleep__Enabled__Disabled__Status" ],
+    [ "APB1 Peripheral Clock Sleep Enabled or Disabled Status", "df/db3/group__RCC__APB1__Clock__Sleep__Enabled__Disabled__Status.html", "df/db3/group__RCC__APB1__Clock__Sleep__Enabled__Disabled__Status" ],
+    [ "APB2 Peripheral Clock Sleep Enabled or Disabled Status", "d1/d6e/group__RCC__APB2__Clock__Sleep__Enabled__Disabled__Status.html", "d1/d6e/group__RCC__APB2__Clock__Sleep__Enabled__Disabled__Status" ],
+    [ "RCC Backup Domain Reset", "d9/ded/group__RCC__Backup__Domain__Reset.html", "d9/ded/group__RCC__Backup__Domain__Reset" ],
+    [ "RCC RTC Clock Configuration", "da/d6e/group__RCC__RTC__Clock__Configuration.html", "da/d6e/group__RCC__RTC__Clock__Configuration" ],
+    [ "RCC Clock Configuration", "d0/d95/group__RCC__Clock__Configuration.html", "d0/d95/group__RCC__Clock__Configuration" ],
+    [ "Flags Interrupts Management", "de/dd9/group__RCC__Flags__Interrupts__Management.html", "de/dd9/group__RCC__Flags__Interrupts__Management" ]
+];

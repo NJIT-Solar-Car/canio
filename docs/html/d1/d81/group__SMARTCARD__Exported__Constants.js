@@ -1,0 +1,25 @@
+var group__SMARTCARD__Exported__Constants =
+[
+    [ "SMARTCARD State Code Definition", "d9/ddb/group__SMARTCARD__State__Definition.html", "d9/ddb/group__SMARTCARD__State__Definition" ],
+    [ "SMARTCARD Error Code Definition", "d7/d6a/group__SMARTCARD__Error__Definition.html", "d7/d6a/group__SMARTCARD__Error__Definition" ],
+    [ "SMARTCARD Word Length", "d8/dca/group__SMARTCARD__Word__Length.html", "d8/dca/group__SMARTCARD__Word__Length" ],
+    [ "SMARTCARD Number of Stop Bits", "d1/dd8/group__SMARTCARD__Stop__Bits.html", "d1/dd8/group__SMARTCARD__Stop__Bits" ],
+    [ "SMARTCARD Parity", "d3/dda/group__SMARTCARD__Parity.html", "d3/dda/group__SMARTCARD__Parity" ],
+    [ "SMARTCARD Transfer Mode", "d1/dfc/group__SMARTCARD__Mode.html", "d1/dfc/group__SMARTCARD__Mode" ],
+    [ "SMARTCARD Clock Polarity", "d9/dd2/group__SMARTCARD__Clock__Polarity.html", "d9/dd2/group__SMARTCARD__Clock__Polarity" ],
+    [ "SMARTCARD Clock Phase", "d8/d66/group__SMARTCARD__Clock__Phase.html", "d8/d66/group__SMARTCARD__Clock__Phase" ],
+    [ "SMARTCARD Last Bit", "d1/de3/group__SMARTCARD__Last__Bit.html", "d1/de3/group__SMARTCARD__Last__Bit" ],
+    [ "SMARTCARD One Bit Sampling Method", "de/d5c/group__SMARTCARD__OneBit__Sampling.html", "de/d5c/group__SMARTCARD__OneBit__Sampling" ],
+    [ "SMARTCARD NACK Enable", "da/d47/group__SMARTCARD__NACK__Enable.html", "da/d47/group__SMARTCARD__NACK__Enable" ],
+    [ "SMARTCARD Timeout Enable", "d0/dcb/group__SMARTCARD__Timeout__Enable.html", "d0/dcb/group__SMARTCARD__Timeout__Enable" ],
+    [ "SMARTCARD Clock Prescaler", "db/db3/group__SMARTCARD__ClockPrescaler.html", "db/db3/group__SMARTCARD__ClockPrescaler" ],
+    [ "SMARTCARD advanced feature TX pin active level inversion", "d2/d7a/group__SMARTCARD__Tx__Inv.html", "d2/d7a/group__SMARTCARD__Tx__Inv" ],
+    [ "SMARTCARD advanced feature RX pin active level inversion", "d0/d7b/group__SMARTCARD__Rx__Inv.html", "d0/d7b/group__SMARTCARD__Rx__Inv" ],
+    [ "SMARTCARD advanced feature Binary Data inversion", "d8/d26/group__SMARTCARD__Data__Inv.html", "d8/d26/group__SMARTCARD__Data__Inv" ],
+    [ "SMARTCARD advanced feature RX TX pins swap", "d9/d6d/group__SMARTCARD__Rx__Tx__Swap.html", "d9/d6d/group__SMARTCARD__Rx__Tx__Swap" ],
+    [ "SMARTCARD advanced feature Overrun Disable", "d4/d51/group__SMARTCARD__Overrun__Disable.html", "d4/d51/group__SMARTCARD__Overrun__Disable" ],
+    [ "SMARTCARD advanced feature DMA Disable on Rx Error", "dd/d6c/group__SMARTCARD__DMA__Disable__on__Rx__Error.html", "dd/d6c/group__SMARTCARD__DMA__Disable__on__Rx__Error" ],
+    [ "SMARTCARD advanced feature MSB first", "d8/df9/group__SMARTCARD__MSB__First.html", "d8/df9/group__SMARTCARD__MSB__First" ],
+    [ "SMARTCARD Request Parameters", "d2/dda/group__SMARTCARD__Request__Parameters.html", "d2/dda/group__SMARTCARD__Request__Parameters" ],
+    [ "SMARTCARD interruptions flags mask", "dd/d1a/group__SMARTCARD__Interruption__Mask.html", "dd/d1a/group__SMARTCARD__Interruption__Mask" ]
+];

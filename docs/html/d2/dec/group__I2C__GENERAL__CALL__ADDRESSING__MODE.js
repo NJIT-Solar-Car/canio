@@ -1,0 +1,5 @@
+var group__I2C__GENERAL__CALL__ADDRESSING__MODE =
+[
+    [ "I2C_GENERALCALL_DISABLE", "d2/dec/group__I2C__GENERAL__CALL__ADDRESSING__MODE.html#ga14918ea7d2b23cd67c66b49ebbf5c0a8", null ],
+    [ "I2C_GENERALCALL_ENABLE", "d2/dec/group__I2C__GENERAL__CALL__ADDRESSING__MODE.html#ga5ec9ec869e4c78a597c5007c245c01a0", null ]
+];

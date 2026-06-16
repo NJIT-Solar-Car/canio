@@ -1,0 +1,5 @@
+var group__ADC__HAL__EC__SAMPLINGTIME__COMMON =
+[
+    [ "ADC_SAMPLINGTIME_COMMON_1", "d9/dd2/group__ADC__HAL__EC__SAMPLINGTIME__COMMON.html#ga9c45290c738768bbd49b1fa4cfc12da5", null ],
+    [ "ADC_SAMPLINGTIME_COMMON_2", "d9/dd2/group__ADC__HAL__EC__SAMPLINGTIME__COMMON.html#gaf91b284f9481ad9674064afcbba573f8", null ]
+];

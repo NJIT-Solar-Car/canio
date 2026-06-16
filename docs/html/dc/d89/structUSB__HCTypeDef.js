@@ -1,0 +1,26 @@
+var structUSB__HCTypeDef =
+[
+    [ "ch_dir", "dc/d89/structUSB__HCTypeDef.html#a0c173bb4ab5879817c7893d4be20146e", null ],
+    [ "data_pid", "dc/d89/structUSB__HCTypeDef.html#aeb9b7fe3dd532cad74a11c896be7c5b6", null ],
+    [ "dev_addr", "dc/d89/structUSB__HCTypeDef.html#aad0450d3e1cbf17a35917baefa3a22d4", null ],
+    [ "doublebuffer", "dc/d89/structUSB__HCTypeDef.html#a92cb645fd4f92d1e34c0d1091df583b4", null ],
+    [ "ep_num", "dc/d89/structUSB__HCTypeDef.html#ac4403c879092add3173c5fdd399b4bc6", null ],
+    [ "ep_type", "dc/d89/structUSB__HCTypeDef.html#a6dabc99e76e8fc34b8e5bea9e06c33bf", null ],
+    [ "ErrCnt", "dc/d89/structUSB__HCTypeDef.html#a92e1ba050550d4614c00953416cd10e2", null ],
+    [ "hub_addr", "dc/d89/structUSB__HCTypeDef.html#a7457e48f92a89b1876e479b16f324437", null ],
+    [ "hub_port_nbr", "dc/d89/structUSB__HCTypeDef.html#a143268ab71673cedb5d79dfa3a73f16d", null ],
+    [ "max_packet", "dc/d89/structUSB__HCTypeDef.html#ab12a2c19424ed48b2e698ba0676f71a6", null ],
+    [ "phy_ch_num", "dc/d89/structUSB__HCTypeDef.html#a2e496173412d23cb84003ec77ef2821f", null ],
+    [ "pmaaddr0", "dc/d89/structUSB__HCTypeDef.html#a9ce4b78ce12896df801f6167488c3d5d", null ],
+    [ "pmaaddr1", "dc/d89/structUSB__HCTypeDef.html#ac9a1cd55dff13152848e15824dd2a8db", null ],
+    [ "pmaadress", "dc/d89/structUSB__HCTypeDef.html#ae87eae0eef46f0f262f4b89511609b53", null ],
+    [ "speed", "dc/d89/structUSB__HCTypeDef.html#a0ea9c1963ccfb83fae85f1028f9a84f1", null ],
+    [ "state", "dc/d89/structUSB__HCTypeDef.html#a67d557fe144f62bee71fbfd5475be3c1", null ],
+    [ "toggle_in", "dc/d89/structUSB__HCTypeDef.html#ae3eb7cb6e5405bda5543800625540dde", null ],
+    [ "toggle_out", "dc/d89/structUSB__HCTypeDef.html#a73ad4f9590613d1db94d5b49f0405c82", null ],
+    [ "urb_state", "dc/d89/structUSB__HCTypeDef.html#a539e79430d0a83f82389c419035e9c65", null ],
+    [ "xfer_buff", "dc/d89/structUSB__HCTypeDef.html#aa0e0d848e467b68e1dd0f6cf575cdde1", null ],
+    [ "xfer_count", "dc/d89/structUSB__HCTypeDef.html#a40c31f8fbccccb277393194c1f5e76f3", null ],
+    [ "xfer_len", "dc/d89/structUSB__HCTypeDef.html#a3103806e549a8e75d53589d8490c9d12", null ],
+    [ "xfer_len_db", "dc/d89/structUSB__HCTypeDef.html#a00f08e079ef113db06bc0de42ff9af2e", null ]
+];

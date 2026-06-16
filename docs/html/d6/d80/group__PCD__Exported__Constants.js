@@ -1,0 +1,25 @@
+var group__PCD__Exported__Constants =
+[
+    [ "PCD Speed", "d9/d12/group__PCD__Speed.html", "d9/d12/group__PCD__Speed" ],
+    [ "PCD PHY Module", "dd/de9/group__PCD__PHY__Module.html", "dd/de9/group__PCD__PHY__Module" ],
+    [ "PCD Error Code definition", "d0/d59/group__PCD__Error__Code__definition.html", null ],
+    [ "USB Low Layer EP0 MPS", "da/d40/group__USB__LL__EP0__MPS.html", "da/d40/group__USB__LL__EP0__MPS" ],
+    [ "USB Low Layer EP Type", "dc/d7c/group__USB__LL__EP__Type.html", "dc/d7c/group__USB__LL__EP__Type" ],
+    [ "USB Low Layer EP Speed", "d5/d4c/group__USB__LL__EP__Speed.html", "d5/d4c/group__USB__LL__EP__Speed" ],
+    [ "USB Low Layer Channel PID Type", "dc/da0/group__USB__LL__CH__PID__Type.html", "dc/da0/group__USB__LL__CH__PID__Type" ],
+    [ "CH_IN_DIR", "d6/d80/group__PCD__Exported__Constants.html#gaa62cc00e54fcaab58b336be369bd58b8", null ],
+    [ "CH_OUT_DIR", "d6/d80/group__PCD__Exported__Constants.html#ga8b11b818882afd735c29847752bf8fc0", null ],
+    [ "EP_ADDR_MSK", "d6/d80/group__PCD__Exported__Constants.html#ga957837890cc1c08c03771632b400e248", null ],
+    [ "PMA_END_ADDR", "d6/d80/group__PCD__Exported__Constants.html#gad4f0c6f4941f37c8f391c593a96f9cbe", null ],
+    [ "PMA_START_ADDR", "d6/d80/group__PCD__Exported__Constants.html#gacb4c5cbec4425889f4af20f2c58a737c", null ],
+    [ "USB_DRD_BULK_DBUFF_DISABLE", "d6/d80/group__PCD__Exported__Constants.html#ga6b0829a63bfb498dde9c1949d789b620", null ],
+    [ "USB_DRD_BULK_DBUFF_ENBALE", "d6/d80/group__PCD__Exported__Constants.html#ga39fbe7687fc3a8fad3b8c29299eb2f72", null ],
+    [ "USB_DRD_ISOC_DBUFF_DISABLE", "d6/d80/group__PCD__Exported__Constants.html#ga1677de0fb43facd60e7815f75e0fc778", null ],
+    [ "USB_DRD_ISOC_DBUFF_ENBALE", "d6/d80/group__PCD__Exported__Constants.html#gaada2494623316cd4263728dd1a46a668", null ],
+    [ "USB_DRD_SPEED_FS", "d6/d80/group__PCD__Exported__Constants.html#ga733a955efecbbc0177b2e2fee623d262", null ],
+    [ "USB_DRD_SPEED_LS", "d6/d80/group__PCD__Exported__Constants.html#ga5ae0369413487088143cec13589bbdae", null ],
+    [ "USB_DRD_SPEED_LSFS", "d6/d80/group__PCD__Exported__Constants.html#ga807a4a3719801cb41f1d90041822506b", null ],
+    [ "USB_DRD_USED_CHANNELS", "d6/d80/group__PCD__Exported__Constants.html#ga3c02a3ca39856869afff4f3874aa1168", null ],
+    [ "USB_EMBEDDED_PHY", "d6/d80/group__PCD__Exported__Constants.html#ga0f65bdf357c978ef75f46e37de4b143e", null ],
+    [ "USE_USB_DOUBLE_BUFFER", "d6/d80/group__PCD__Exported__Constants.html#gae02fa4543391f7a7a18e7e0f30442595", null ]
+];
