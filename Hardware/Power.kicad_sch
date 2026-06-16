@@ -294,6 +294,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -1995,6 +2163,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 45.72) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df2488c-acad-4725-867d-f138e66dd31d")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237726ec-6dc9-495f-b21f-4a7461313f66")
+	)
+	(wire
+		(pts
 			(xy 96.52 73.66) (xy 100.33 73.66)
 		)
 		(stroke
@@ -2623,6 +2811,16 @@
 		)
 		(uuid "fd439e7e-e37e-459e-8fab-e9988e76a65a")
 	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe863610-576a-4b5b-8269-c31aabc72796")
+	)
 	(image
 		(at 256.54 182.88)
 		(scale 0.646246)
@@ -2885,6 +3083,16 @@
 			"DUpPbgWRW1+TKgc4piAwBHYzWCPFZwoNxM1toAX/ANRf/9k="
 		)
 	)
+	(label "Raw12V"
+		(at 153.67 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "194039bf-7ffb-483e-afc8-6aa395dff852")
+	)
 	(global_label "5v0"
 		(shape input)
 		(at 68.58 190.5 180)
@@ -2975,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 140.97 45.72 0)
+		(at 130.81 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2984,7 +3192,7 @@
 		(fields_autoplaced yes)
 		(uuid "0befbcc3-825f-48d6-8cb2-135881041777")
 		(property "Reference" "#PWR06"
-			(at 140.97 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +3201,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 140.97 40.64 0)
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 140.97 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,6 +4715,92 @@
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 137.16 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7c6705-af7d-4202-b87f-63594b132591")
+		(property "Reference" "D1"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "614911d3-1957-43a4-878b-0cc786272bc0")
+		)
+		(pin "1"
+			(uuid "b93085c6-9887-4e78-b3f2-22b7d3114795")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/689b7a23-36b5-40a7-9bc7-70c150316ec6"
+					(reference "D1")
 					(unit 1)
 				)
 			)
