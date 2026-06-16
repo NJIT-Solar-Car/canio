@@ -1,0 +1,42 @@
+Qty,QtyWithExtra,Reference,Value,Manufacturer Name,Part Number,Description,Comment
+1,1,BUCK1,AP63203QWU-7,Diodes Incorporated,AP63203QWU-7,"2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6",
+1,1,BUCK2,AP63205QWU-7,Diodes Incorporated,AP63203QWU-7,"2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6",
+9,15,"C1,C2,C3,C4,C5,C6,C7,C8,C27",1u,Samsung Electro-Mechanics,CL10B105KO8NNNC,"capacitor, small US symbol",
+6,10,"C9,C11,C18,C22,C23,C24",10u,Samsung Electro-Mechanics,CL10X106MO8NRNC,"capacitor, small US symbol",
+4,10,"C10,C12,C15,C19",100n,Samsung Electro-Mechanics,CL10B104KB8NNNC,"capacitor, small US symbol",
+2,10,"C13,C14",22n,Samsung Electro-Mechanics,CL10B223KB8WPNC,"capacitor, small US symbol",
+4,10,"C16,C17,C20,C21",22u,Würth Elektronik,865080140001,"capacitor, small US symbol",
+1,5,C25,4.7u,Würth Elektronik,865080640004,"capacitor, small US symbol",
+1,10,C26,10n,Samsung Electro-Mechanics,CL10B103KB8NNNC,"capacitor, small US symbol",
+1,1,CAN1,ISO1042,Texas Instruments,ISO1042BDWR,,
+2,4,"L1,L2",4.7u,Bourns Inc.,RLB0914-4R7ML,"Inductor, small symbol",
+1,1,D1,diode,MCC (Micro Commercial Components),SK1045-LTP,reverse polarity doide,
+1,1,DCDC1,NME1,Murata Power Solutions Inc.,NME1S0505SC,,
+1,2,DIP1,SW_DIP_x03,CTS Electrocomponents,208-3,"3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",
+1,1,DT1,Conn_01x02,,,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Not available on digikey
+1,2,SCREW1,Screw Terminal 1x2,Same Sky,TB002-500-02BE,,
+1,1,DT2,Conn_01x03,TE Connectivity Deutsch Connectors,DTF13-3P,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",
+1,2,SCREW2,Screw Terminal 1x3,Same Sky,TB002-500-03BE,,
+2,10,"FILTER1,FILTER2",ECMF02-2AMX6,STMicroelectronics,ECMF02-2AMX6,,Suggesting to get 10 bcoz these things are small and easy to lose/inhale
+1,2,L3,47u,TDK,B82422H1473K000,"Inductor, small symbol",
+1,5,LDO1,SPX5205-ADJ,"MaxLinear, Inc.",SPX5205M5-L/TR,,"Same thing, very small easy to lose'"
+4,10,"LED1,LED2,LED3,LED4",LED_Small,Lite-On Inc.,LTST-C150KGKT,"Light emitting diode, small symbol","Green LED for power indication, heartbeat, etc."
+4,10,"LED1,LED2,LED3,LED4",LED_Small,Lite-On Inc.,LTST-C150KRKT,"Light emitting diode, small symbol",RED OPTIONAL!!! If we wanna use different color LED
+4,10,"LED1,LED2,LED3,LED4",LED_Small,Lite-On Inc.,LTW-150TK,"Light emitting diode, small symbol",YELLOW OPTIONAL!!! If we wanna use different color LED
+1,1,LOAD1,TBD62783AFWG,Toshiba Semiconductor and Storage,"TBD62783AFWG,EL",,
+1,1,MCU1,STM32G0B1KETxN,STMicroelectronics,STM32G0B1KET6N,"STMicroelectronics Arm Cortex-M0+ MCU, 512KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 29 GPIO, LQFP32",
+10,10,"R1,R2,R3,R4,R5,R6,R7,R8,R14,R19",10k,Panasonic Industry,ERA-3AEB103V,"Resistor, small US symbol",
+4,10,"R9,R10,R11,R12",1k,Panasonic Industry,ERA-3AEB102V,"Resistor, small US symbol",
+1,10,R13,17k,Stackpole Electronics,RMCF0402FT17K8,"Resistor, small US symbol",17.8k
+2,10,"R17,R18",5.1k,Yageo,RT0603FRD075K1L,"Resistor, small US symbol",
+2,10,"R15,R16",60,Panasonic Industry,ERJ-3EKF60R4V,"Resistor, small US symbol",
+8,8,"RELAY1,RELAY2,RELAY3,RELAY4,RELAY5,RELAY6,RELAY7,RELAY8",ALDP112W,Panasonic Electric Works,ALDP112W,,
+9,10,"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",SW_Push,E-Switch,TL3301AF160QG,"Push button switch, generic, two pins",
+1,1,TC1,TC2030,Tag-Connect LLC,"TC2030-MCP-NL
+",Tag-Connect’s 6-pins connector,NL (no leg) version
+1,1,TVS1,D_TVS,Bourns Inc.,P4SMA15A,Bidirectional transient-voltage-suppression diode,"12.8V RWM, ~14V breakdown, 20A TVS diode. Kinda overkill current wise."
+1,5,TVS2,D_TVS_Dual_AAC,Comchip Technology,CPDT-12V,"Bidirectional dual transient-voltage-suppression diode, center on pin 3",SOT-23-3. Easy to lose so get a ton
+3,5,"TVS3,TVS4,TVS5",ESDS314DBVR,Texas Instruments,ESDS314DBVR,,
+1,5,USB1,USB_C_Receptacle_USB2.0_16P,Same Sky,UJ20-C-H-G-SMT-1-P16-TR,USB 2.0-only 16P Type-C Receptacle connector,"Have had trouble soldering these in the past, get extra just in case."
+8,10,"WAGO1,WAGO2,WAGO3,WAGO4,WAGO5,WAGO6,WAGO7,WAGO8",2601,WAGO Corporation,2601-1102,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Getting 10 (box) instead of 8 saves 2 bucks on digikey
+1,5,Y1,Crystal,Abracon LLC,ABS07-32.768KHZ-T,Two pin crystal,"again, extra just in case"
