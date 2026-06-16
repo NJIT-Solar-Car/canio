@@ -1,0 +1,10427 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ace0514-2dd2-4860-88fa-a3c2861e8e16")
+	(paper "USLetter")
+	(title_block
+		(title "CAN IO Board | Load Driver")
+		(date "2026-06-09")
+		(rev "A")
+		(company "NJIT Solar Car")
+		(comment 1 "Author(s): Arnav Revankar")
+	)
+	(lib_symbols
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SolderJumper_2_Open_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:ALDP112W"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -7.62 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ALDP112W"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:RELAY_ALDP112W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "PANASONIC EW/AROMAT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "ANA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2024.10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ALDP112W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic Electric Works"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ALDP112W_0_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -3.81 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.81 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.715 0) (xy 5.08 1.27) (xy 4.445 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:TBD62783AFWG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TBD62783AFWG"
+				(at 0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TBD62783AFWG_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "IN5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "IN6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "IN7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "IN8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "OUT5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "OUT6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "OUT7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "OUT8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "DriverOut"
+		(members "DriverOutP[0..7]" "DriverOutN[0..7]")
+	)
+	(rectangle
+		(start 14.605 128.905)
+		(end 154.305 201.295)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 106a3b8d-4ec1-4fcf-9cec-a3b0c1e9bc0c)
+	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 265.43 123.825)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 354618b6-0d86-45a4-a433-bcb4fe129e83)
+	)
+	(rectangle
+		(start 159.385 128.905)
+		(end 265.43 169.545)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53cd1270-3bbf-458a-be23-7db13dc3c7d4)
+	)
+	(text "Design Notes"
+		(exclude_from_sim no)
+		(at 17.018 131.826 0)
+		(effects
+			(font
+				(size 3.302 3.302)
+				(thickness 0.6604)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "2a1e7f96-fbad-4d58-afec-2c2f677ffec2")
+	)
+	(text "Load Driver High Side Switch and Relays"
+		(exclude_from_sim no)
+		(at 19.304 20.066 0)
+		(effects
+			(font
+				(size 3.302 3.302)
+				(thickness 0.6604)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "94d9e26b-c31d-4957-83a9-5dd4f9f3a165")
+	)
+	(text "- The load driver IC is an 8 channel high side switch, that can supply upto 500mA per channel with Vcc upto 50V.\n- The high side switch is used to power 8 relay coils, which each draw 12V 30mA (0.36W). The relays themselves are capable of\n   supplying upto 15A constant.\n- The solder bridges allow you to select from the WAGO connector output being 12V-GND, or just a connected/disconnected\n   wire.\n- For example, on the first relay, bridging SB1 and SB9 will put 12V and GND on the wago connector. On the other hand,\n   bridging SB5 alone and leaving the other two open will simply connect the loop. DO NOT CONNECT IN ANY OTHER CONFIGURATION!!!\n- Of all the high-current components, the solder bridge is the weak link. Thus, using the biggest available solder bridge\n   pad, max continuous current will be like 3 amps probably (not determined yet)\n- Because of the previous point, all fuses on this sheet will be 5A fuses."
+		(exclude_from_sim no)
+		(at 17.78 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab7f1046-4df7-4ae8-87d0-3cec26eea2d2")
+	)
+	(text "Global/Hierarchical Labels"
+		(exclude_from_sim no)
+		(at 162.052 132.588 0)
+		(effects
+			(font
+				(size 3.302 3.302)
+				(thickness 0.6604)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e5fd4c81-9662-4c7d-b4b5-f43f61615e87")
+	)
+	(junction
+		(at 149.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a87e0a-031a-4d97-bc6d-25c25c998e2a")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d111645-bb3e-4f89-bef7-efc672e0c30e")
+	)
+	(junction
+		(at 57.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "217e0ca4-0d92-4810-ba52-6a65ee9b3c07")
+	)
+	(junction
+		(at 195.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d600ba-4189-46d0-a743-ee78f0402e0a")
+	)
+	(junction
+		(at 57.15 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a906f7-b599-44e2-ab3c-ae9440b83f19")
+	)
+	(junction
+		(at 57.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c39d23-843d-42c6-b686-2cbf570f6c6b")
+	)
+	(junction
+		(at 149.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40839ddc-c929-4f63-9c3d-2b885639146d")
+	)
+	(junction
+		(at 102.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557c90c0-b575-4eb2-9908-77ad4244dbec")
+	)
+	(junction
+		(at 123.19 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7280f268-dd8b-4203-9727-31a64dbce71b")
+	)
+	(junction
+		(at 76.2 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79355a71-93d2-4749-a9de-11f6f9614589")
+	)
+	(junction
+		(at 149.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ace4e3d-482f-4b0a-a2e1-ffd53d4b64b2")
+	)
+	(junction
+		(at 57.15 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8471dd29-6f5f-49a5-a43f-efb86fdb9cac")
+	)
+	(junction
+		(at 30.48 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85962406-797e-44b4-af21-03d447bbc97d")
+	)
+	(junction
+		(at 149.86 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ccd53f-dec1-4d84-8a4e-7f82b043f32c")
+	)
+	(junction
+		(at 102.87 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "923a6c02-75cc-41e4-9809-66188c52db46")
+	)
+	(junction
+		(at 168.91 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9455d33d-9fec-4c1e-879d-12288cd4bdec")
+	)
+	(junction
+		(at 195.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95da5e14-b69e-4096-8d86-f4b8b45a8a59")
+	)
+	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5018f2-8371-47b7-a1f9-00ebc64d42f8")
+	)
+	(junction
+		(at 149.86 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b72314c-23d3-48b3-bc18-cc8024762751")
+	)
+	(junction
+		(at 30.48 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e20b792-585c-4582-a314-b89e1e23a9ce")
+	)
+	(junction
+		(at 123.19 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dc6823-eec6-4c8a-bf2f-4a30c7d81c15")
+	)
+	(junction
+		(at 102.87 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b5ea35-5d82-4e94-a114-1c2351d20a16")
+	)
+	(junction
+		(at 195.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8aa7878-c60a-4770-8a61-83fa30c6a9cd")
+	)
+	(junction
+		(at 195.58 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab7508f3-42da-4762-b9f1-08d0d0b00036")
+	)
+	(junction
+		(at 76.2 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ba12bd-fccd-4986-88b0-440a9a85af39")
+	)
+	(junction
+		(at 57.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbc07252-c90a-4038-9983-fc90d0ec8ecc")
+	)
+	(junction
+		(at 207.01 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd003491-8387-4fc2-a704-f36995559b13")
+	)
+	(junction
+		(at 161.29 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde58142-9d91-45e8-83b5-686e6c539e4a")
+	)
+	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48608f5-a7fb-4890-8d02-84d5625b42de")
+	)
+	(junction
+		(at 168.91 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c812d8b0-f3fc-43b7-a569-586cfa3a8f12")
+	)
+	(junction
+		(at 195.58 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0b83aff-a9a2-4e1d-8a0d-705ec0df00d6")
+	)
+	(junction
+		(at 114.3 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2697d90-ac64-4237-b217-01bae93f5c04")
+	)
+	(junction
+		(at 195.58 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd89772-e57f-4397-8543-9cb9e291a0b2")
+	)
+	(junction
+		(at 57.15 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eca6e836-614f-49b4-812f-8aea50dae72d")
+	)
+	(junction
+		(at 102.87 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fec01834-8f58-4924-bdb2-7612a30cec56")
+	)
+	(bus_entry
+		(at 204.47 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d61ad62-5f07-4344-bdca-d4a47216f992")
+	)
+	(bus_entry
+		(at 66.04 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21581780-f076-41f8-a519-60fc611928b3")
+	)
+	(bus_entry
+		(at 218.44 77.47)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f051293-d6ad-4fdd-975a-db1d09dd3f16")
+	)
+	(bus_entry
+		(at 218.44 90.17)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b3197a-6acd-48e4-bcae-d71b77fe82a4")
+	)
+	(bus_entry
+		(at 218.44 72.39)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391ce3d7-0767-4734-bb29-2e0dc8ded5dc")
+	)
+	(bus_entry
+		(at 204.47 39.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc3737c-3b87-46b5-8c27-e97625452280")
+	)
+	(bus_entry
+		(at 218.44 82.55)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2e6f56-4c76-43e5-b42a-8d33424888cb")
+	)
+	(bus_entry
+		(at 158.75 39.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dee382-ba7a-464b-a478-36fe2b0c31db")
+	)
+	(bus_entry
+		(at 111.76 39.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595f3200-0a90-4eca-8c69-3eae4c0fdf76")
+	)
+	(bus_entry
+		(at 218.44 74.93)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ce5720-c12b-4f1e-a6db-248a528fa364")
+	)
+	(bus_entry
+		(at 218.44 80.01)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfe8dce-f234-4ddf-b34f-3a4f99c54e94")
+	)
+	(bus_entry
+		(at 158.75 58.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c7b5fc-6ac8-4f22-9879-c06ec00245b6")
+	)
+	(bus_entry
+		(at 158.75 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851b8353-4078-47fe-8c3b-6347fbdb010f")
+	)
+	(bus_entry
+		(at 66.04 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3707c4-1b24-49b1-ab4b-28c8eb6a9c70")
+	)
+	(bus_entry
+		(at 204.47 58.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b629984-03a8-409f-ad1c-6877c77a880d")
+	)
+	(bus_entry
+		(at 218.44 87.63)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c189483-d2b8-457b-a32c-e798a0a2a33a")
+	)
+	(bus_entry
+		(at 66.04 58.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10db1e9-92b8-4823-93ce-74eeef64a0c8")
+	)
+	(bus_entry
+		(at 111.76 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2377981-7b6d-417c-b333-97f18336476a")
+	)
+	(bus_entry
+		(at 111.76 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ea9dbd-056b-4822-b5b2-f44f37ea44fe")
+	)
+	(bus_entry
+		(at 158.75 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe33b99-6b36-4ebd-ad19-187a01cf1385")
+	)
+	(bus_entry
+		(at 218.44 85.09)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61112ca-6ae7-435c-aa50-eb842fed5c50")
+	)
+	(bus_entry
+		(at 66.04 39.37)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f2b990-b88c-4bd7-b8fd-46f48772c113")
+	)
+	(bus_entry
+		(at 111.76 58.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7f9089-bd1e-4558-b896-89df8448d1e6")
+	)
+	(bus_entry
+		(at 204.47 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecfe6c4-b646-4ef6-ad11-a7f1df34c825")
+	)
+	(wire
+		(pts
+			(xy 184.15 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0241db72-6982-4b01-b1a2-d25fdfe540c1")
+	)
+	(bus
+		(pts
+			(xy 207.01 80.01) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a7eb2a-4b31-471b-9ffd-3264e58b2d15")
+	)
+	(bus
+		(pts
+			(xy 207.01 26.67) (xy 207.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06912cea-a392-41cf-9f4c-2b315fc8648c")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 204.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09756e20-dc43-404e-ab15-e915cf46bbbe")
+	)
+	(wire
+		(pts
+			(xy 102.87 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c7b51c-d9dc-4721-8860-6c9bee4812a4")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a69fc26-2b2b-4fd1-800a-4542f4116e75")
+	)
+	(wire
+		(pts
+			(xy 30.48 66.04) (xy 57.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca475c1-854c-4579-8886-d9a6e5864cdb")
+	)
+	(wire
+		(pts
+			(xy 251.46 85.09) (xy 259.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd4f177-f8d9-4943-af4a-82814bddb049")
+	)
+	(wire
+		(pts
+			(xy 102.87 44.45) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1161e12b-4da3-444e-974c-8b53910f9560")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14420d8c-6461-4713-b87e-82007dbca258")
+	)
+	(bus
+		(pts
+			(xy 209.55 69.85) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b6d222-81af-4033-b7be-fa476b168c71")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176225c4-5538-445c-9a00-75f0c4a8bd83")
+	)
+	(bus
+		(pts
+			(xy 207.01 26.67) (xy 220.98 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a28336f-0313-4296-a80b-5b8b03dc1d6f")
+	)
+	(bus
+		(pts
+			(xy 68.58 55.88) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9ac2b9-4175-4de6-a6b8-c66004798119")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 259.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3805ca-bb9d-4b7a-a851-202e7581380c")
+	)
+	(bus
+		(pts
+			(xy 161.29 36.83) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c231c45-c55f-45f6-b405-57035e4c5d47")
+	)
+	(wire
+		(pts
+			(xy 123.19 44.45) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f0cef4-949f-4dc9-855c-2d9a82a427dc")
+	)
+	(wire
+		(pts
+			(xy 195.58 58.42) (xy 204.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2249b3a7-f295-4373-bcd0-3fc558972da3")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d2e82a-151b-42cf-b2db-e7ffacfcefb1")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c8888f-d1c2-442f-8ae5-6a7184becd09")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcb0362-1995-403e-8fe9-5a50b7d3dc4f")
+	)
+	(bus
+		(pts
+			(xy 215.9 72.39) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c05c722-9fc0-47c9-8c03-aa3894cc3856")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d52f4e0-c109-4440-81e0-2f1437ae9ad7")
+	)
+	(bus
+		(pts
+			(xy 161.29 80.01) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e591360-4c68-43b8-8e61-6e253abf6784")
+	)
+	(wire
+		(pts
+			(xy 168.91 44.45) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e675a1c-9891-466e-8ca4-23ea7dc353e1")
+	)
+	(bus
+		(pts
+			(xy 207.01 55.88) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a8e6fe-527a-493c-b8a0-1e63bbe29517")
+	)
+	(wire
+		(pts
+			(xy 30.48 82.55) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350264ca-680a-43b6-8a9b-a9fc751130f2")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c1edd9-9dc7-436b-bfe9-d0dc31169e05")
+	)
+	(wire
+		(pts
+			(xy 57.15 44.45) (xy 57.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387ea1cc-8154-4dc1-b0c8-ac4b0b4b93cc")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5904f4-3124-4a3a-a3ef-c09c5ea39187")
+	)
+	(wire
+		(pts
+			(xy 254 69.85) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebb9103-3a6e-48dd-b0fc-fe63cc0c39d3")
+	)
+	(wire
+		(pts
+			(xy 218.44 74.93) (xy 226.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3febe823-48cc-4a80-ac45-1332e8cfaca8")
+	)
+	(bus
+		(pts
+			(xy 114.3 55.88) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44da242e-bed7-4de9-9b76-bd855511684a")
+	)
+	(wire
+		(pts
+			(xy 251.46 77.47) (xy 259.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4600d458-aca6-4e48-9aa7-e38c65b247c5")
+	)
+	(bus
+		(pts
+			(xy 114.3 80.01) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474140e6-ae03-4aa0-aff4-7a8ddb776ff1")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4800deb2-55ff-4dc1-a0a3-88d5fd6e193e")
+	)
+	(wire
+		(pts
+			(xy 170.18 44.45) (xy 168.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bba530b-7e47-4bb9-b416-62e4d6f28cee")
+	)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c895f49-dc7e-4593-8dc5-ce2a7058377c")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf8745f-381a-4c25-9e14-3d39062a8e9a")
+	)
+	(bus
+		(pts
+			(xy 215.9 87.63) (xy 215.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e66bcf9-8608-4822-8056-8e67ce0685bb")
+	)
+	(bus
+		(pts
+			(xy 68.58 26.67) (xy 114.3 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9ec03c-0241-424f-a615-670481a50188")
+	)
+	(bus
+		(pts
+			(xy 207.01 36.83) (xy 207.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbe097c-5c19-4ed1-bee6-9c16ca35a35a")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52345b62-5616-48f4-8360-e23f3aff1d4e")
+	)
+	(wire
+		(pts
+			(xy 30.48 44.45) (xy 30.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528c7a77-6996-4080-8e41-f68c343538a8")
+	)
+	(wire
+		(pts
+			(xy 218.44 85.09) (xy 226.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ad9f88-8f05-49f8-a64a-d5ffe9ce7a2e")
+	)
+	(wire
+		(pts
+			(xy 30.48 109.22) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d511f4b-2eaa-4825-a038-338a4bcc3a70")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe02a12-f76d-44f9-94da-f19c446350bc")
+	)
+	(wire
+		(pts
+			(xy 195.58 82.55) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600206b6-51b8-41ca-9236-e0c4fa0e0309")
+	)
+	(wire
+		(pts
+			(xy 218.44 77.47) (xy 226.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c7c130-ff0d-49a4-97fa-1028e6469959")
+	)
+	(bus
+		(pts
+			(xy 165.1 149.86) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fcf24a-15bf-4e73-ae7d-5506e0d6570a")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661e6d06-93d5-4806-a019-4ad0c18f9d09")
+	)
+	(bus
+		(pts
+			(xy 215.9 74.93) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680eba26-0c0f-44b9-b281-084d6f560dac")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b532a54-b3e3-4f10-b7b2-086216733857")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c700716-bde8-458e-a698-f8e8ca37008f")
+	)
+	(wire
+		(pts
+			(xy 251.46 87.63) (xy 259.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d75bedc-de00-4972-adff-4794417483cc")
+	)
+	(wire
+		(pts
+			(xy 149.86 44.45) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d776ce0-20fc-4937-af14-41f6e46e0c26")
+	)
+	(wire
+		(pts
+			(xy 251.46 74.93) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71927bed-6f24-4603-b9c1-53cb08b0f3e0")
+	)
+	(bus
+		(pts
+			(xy 161.29 55.88) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721ed114-f326-4cc4-8641-0c17ecc3f964")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ad8cae-1c63-4647-83fc-ac0927b917e4")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7785f1bd-3af4-486f-aa55-7355594c5547")
+	)
+	(bus
+		(pts
+			(xy 215.9 85.09) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80839963-bbc8-41a1-b951-e4436aa3d3b9")
+	)
+	(wire
+		(pts
+			(xy 195.58 39.37) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8162b444-0c25-4790-a9d7-1f6aadd80392")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8264e4e8-605b-4f27-a16e-56cc3400ddfa")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 168.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828f9348-1570-49f7-ac52-dc3ddf963e5e")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d8b9ab-0790-40a6-b13e-129cbf90f5fb")
+	)
+	(bus
+		(pts
+			(xy 215.9 77.47) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8405825c-3bc1-4fba-9dba-fdfd6a27f215")
+	)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856144d6-8774-4075-a372-e76bec52ae21")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888e9ca2-27f0-49b2-948c-c0bbf2c7ec1d")
+	)
+	(wire
+		(pts
+			(xy 184.15 54.61) (xy 187.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b762aec-7ef8-45bc-87e7-84617f1e141c")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb0bc34-a218-4ce3-94b7-112cc071c767")
+	)
+	(wire
+		(pts
+			(xy 31.75 44.45) (xy 30.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932892e6-cb7a-4094-8118-dde5d941035e")
+	)
+	(bus
+		(pts
+			(xy 215.9 82.55) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a1743a-0b4a-470d-89b1-454a5275dcc8")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959c85ae-84ae-4619-be7e-8c84d91ba895")
+	)
+	(wire
+		(pts
+			(xy 218.44 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fd52cc-91bc-4de6-b45a-ff80a06bf9b4")
+	)
+	(wire
+		(pts
+			(xy 195.58 44.45) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9894ca70-b179-4873-936c-7dbdf02cc724")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 30.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b589e8d-6a1b-41f2-937e-f77be6f0b470")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baca160-6a52-4ab3-99af-75e9c2488b16")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 31.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8170ff-9e40-4b7a-8c27-5c0dd763adc1")
+	)
+	(wire
+		(pts
+			(xy 187.96 54.61) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3060cc-56f8-426b-92a7-8c910c464575")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffa9045-c69f-40ae-9f23-b596c14b4e65")
+	)
+	(bus
+		(pts
+			(xy 215.9 80.01) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a173e715-698f-4af3-86e4-17d7b074a896")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a194396b-d792-4cfd-b849-091b8b11c82f")
+	)
+	(bus
+		(pts
+			(xy 114.3 36.83) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2624d2d-4cb2-4d5f-b004-a751e8143888")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f5a70c-d1d8-4be4-96f6-ea9b186ee2b9")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 223.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79b7d98-138c-44e3-8be2-899de96ec24d")
+	)
+	(wire
+		(pts
+			(xy 251.46 80.01) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bfa1f5-5227-469a-b80c-575e3f404ea3")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9334b02-4fca-4658-8c9e-55ca84b64bf8")
+	)
+	(bus
+		(pts
+			(xy 161.29 26.67) (xy 161.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8cc668-232c-4239-851c-cf3cbcfe13f1")
+	)
+	(wire
+		(pts
+			(xy 124.46 44.45) (xy 123.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2182d9e-1bb6-4bea-9c22-32bc364ac7a9")
+	)
+	(wire
+		(pts
+			(xy 251.46 92.71) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b284ec96-a71e-41f5-ad5e-17fe9be8069c")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b3e722-c050-40e4-9323-285ebedd19e8")
+	)
+	(wire
+		(pts
+			(xy 254 72.39) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e2319a-80fb-476b-b5d1-9575e801a79f")
+	)
+	(wire
+		(pts
+			(xy 30.48 87.63) (xy 30.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e1ace0-9380-4930-bdd8-3890f9722ebc")
+	)
+	(wire
+		(pts
+			(xy 168.91 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7887790-0618-4cab-b05f-8e5eb9f438a7")
+	)
+	(wire
+		(pts
+			(xy 251.46 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6941b5-208f-4ede-b1ab-7fe763458dd4")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba814c82-46c7-449d-878b-dc3b45fc6bf9")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd924216-36d2-4ca4-89fe-225e114a3cce")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be30d55c-db9c-48b8-9e8f-3854584eb1e4")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd78b39-a1bd-4bbd-bd46-4a5694e31656")
+	)
+	(bus
+		(pts
+			(xy 161.29 26.67) (xy 207.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a6d9ce-46e4-4c96-ad12-2ddb80a6bee0")
+	)
+	(bus
+		(pts
+			(xy 165.1 142.24) (xy 191.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56f74c0-f97c-4603-ac8c-b850b44fb948")
+	)
+	(bus
+		(pts
+			(xy 68.58 99.06) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57d5656-c467-4501-94a8-5ee6eff0dc99")
+	)
+	(wire
+		(pts
+			(xy 218.44 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e24ebc-afa3-44af-841b-451c3d829211")
+	)
+	(bus
+		(pts
+			(xy 68.58 80.01) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e6e683-d449-4acd-b549-cd9592d26075")
+	)
+	(wire
+		(pts
+			(xy 168.91 109.22) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca747179-359e-4743-9907-bec51a447e6e")
+	)
+	(wire
+		(pts
+			(xy 95.25 54.61) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd47f012-6a7f-48c2-8871-bc930a7feecb")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 226.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd02a4f-ebf3-4c48-9f50-a378e62e9e9e")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 124.46 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd80a32-bd18-441c-91d1-e54573256fd6")
+	)
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b223da-732f-4ef1-a5d9-3b6c830206af")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd22746c-49e8-4095-88da-39255459af24")
+	)
+	(wire
+		(pts
+			(xy 168.91 87.63) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de911ee2-92cb-4017-88dc-2b29ad5ff0fe")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df286af8-1e38-418c-924a-04051208a4df")
+	)
+	(wire
+		(pts
+			(xy 45.72 54.61) (xy 49.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd31712-2e8e-44c8-8c5d-7eb8040623c5")
+	)
+	(wire
+		(pts
+			(xy 218.44 82.55) (xy 226.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c935eb-10d2-4ae4-9ea1-72c01f98cfcf")
+	)
+	(bus
+		(pts
+			(xy 68.58 36.83) (xy 68.58 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61a3b83-bb3a-494c-a83e-79e5eb2e5c94")
+	)
+	(bus
+		(pts
+			(xy 114.3 26.67) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02435ef-cf82-440b-909a-37a4847a7625")
+	)
+	(wire
+		(pts
+			(xy 149.86 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5537011-cf76-4b7a-8aa3-3bdb9b3f45c6")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81b693e-4024-43de-9546-b9c234a7ce41")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f844fab9-2a87-4f69-8677-ec80a9e35750")
+	)
+	(bus
+		(pts
+			(xy 114.3 26.67) (xy 161.29 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcedc417-4446-4df1-ac8b-adc9c20ee774")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5f6273-fe2a-42da-b84b-c76c36324797")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeaed33-22c8-419a-a9c5-13dd66be8fbd")
+	)
+	(image
+		(at 256.54 182.88)
+		(scale 0.646246)
+		(uuid "34dc265c-cb63-4c9f-9a13-32f562a42d53")
+		(data "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"
+			"uagJq2weiXxAKiVfHmDdnytW1TJzIgSusy5M4grfpWm8PpfdhXVX0g2XBSktY6BekqaGo/mEfm7q"
+			"LdhqPigrTYK6QENsIGRnxUu6YKZvICJY3aIFWyt7rnJVto1toLJ2TLiIpdgviV55d0vHo5PllLUW"
+			"aZp72ulzSZhgCmh2g/QKmBhp7yrzIWR5NtN4FaBjs6jflia+rZLRoTq98iN57w+q7eoGrmxqo4oH"
+			"vFGwVe694KIsCWKYeuL4/MnTAIg2PToNgTq2Sj0Hoh1jqE8T/Jn+V6NWh1J/jyxNjp6OWp1IY9KQ"
+			"TgXOsggy3EdLqOqKdaIApLIvqvif5UtK7a0QTQE6xD2w9DAUbpOQua9AtPaiuvtyhvN2g9EOkMoW"
+			"dYpr7MyDkNMRLM+j/vBKAbwP/UX/2gAMAwEAAgADAAAAEPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
+			"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
+			"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOPuR9iLPPPPPPPPPPPPPPPPPP"
+			"JmlVxBRdNPPPPPPPPPPPPPPPPI7W2sY/MFvPPPPPPPPPPPPPPLQL5K6wf7LfPPPPPPPPPPPOPPGb"
+			"Xfa7/ekfK9PPPPPPPPcN/OPdsO+fUt01S6+i+r/PPPO4zBNXuv7aDNHHhhQPgAMmnPPGdCgGi9AS"
+			"4FepZrCvmPayD/PPDCBFHBHMPALKJLLEPCAGFFPPPLDCGDBDKHHEOPJFJJFEACMPPPPPPPPPPPPP"
+			"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
+			"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"
+			"PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP/xAApEQEAAgIB"
+			"AwMEAQUAAAAAAAABABEhMUFRYYFxkaFAscHRIBAwcIDh/9oACAEDAQE/EP8AD97kDmLlAfDMBw66"
+			"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"
+		)
+	)
+	(label "Chan2"
+		(at 218.44 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0280e1c1-e2fb-44df-9dd5-d8438a0b47db")
+	)
+	(label "Coil0"
+		(at 30.48 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0333a943-4e72-44e1-a1de-16472fbe77c8")
+	)
+	(label "Coil7"
+		(at 168.91 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a4fd9d9-2148-40fa-87fa-dea84a30aad3")
+	)
+	(label "DriverOutN0"
+		(at 66.04 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b544205-1937-40eb-8e31-75c22ee57697")
+	)
+	(label "Chan7"
+		(at 218.44 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121250cc-0c43-42a8-975e-c00543b1ae72")
+	)
+	(label "DriverOutP6"
+		(at 158.75 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13908c0c-bd26-48d6-895b-db9287905c7c")
+	)
+	(label "DriverOutN1"
+		(at 111.76 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13d3187a-99b8-4569-8924-1beacc63b57d")
+	)
+	(label "DriverOutN6"
+		(at 158.75 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b398035-7a59-4a66-95b1-b0f16f712b05")
+	)
+	(label "Chan4"
+		(at 218.44 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d587431-e152-4600-832e-494874d3f550")
+	)
+	(label "Chan5"
+		(at 218.44 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29a64b2f-2b33-42f1-9898-fd18abbed324")
+	)
+	(label "Coil5"
+		(at 76.2 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a6fe141-6aeb-423d-abf6-9a59e647620c")
+	)
+	(label "Coil5"
+		(at 259.08 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ebed5b8-c72f-48f7-ac84-3ba698d27ec6")
+	)
+	(label "Chan6"
+		(at 218.44 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d955f7-11d0-4011-ae44-f59fed44588f")
+	)
+	(label "Coil4"
+		(at 30.48 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d1d008d-19f1-4650-8aa7-33745dd3ed79")
+	)
+	(label "Chan3"
+		(at 218.44 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47a7240b-bd5e-4d94-8404-a32c505e5fe3")
+	)
+	(label "Coil1"
+		(at 259.08 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ac01dfc-8853-45f7-a053-ddc327921db0")
+	)
+	(label "Coil1"
+		(at 76.2 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c28560e-c4ed-4d28-ac3f-e5cb45fbd9a8")
+	)
+	(label "Coil7"
+		(at 259.08 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50710169-15d3-4f7f-8f61-33328e7cb378")
+	)
+	(label "Coil2"
+		(at 259.08 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61d672ba-b09f-494d-b57a-b248ba149705")
+	)
+	(label "DriverOutP1"
+		(at 111.76 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63a1b79f-053d-414d-a8e9-50b130452469")
+	)
+	(label "Coil4"
+		(at 259.08 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6dbc55b6-98a9-41b4-9766-b233923930b2")
+	)
+	(label "DriverOutN7"
+		(at 204.47 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e030820-6a01-4bb0-9655-30b912caa455")
+	)
+	(label "{Channels}"
+		(at 209.55 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "705f8ec7-1bc2-445a-83b3-c98af0fa2669")
+	)
+	(label "Coil3"
+		(at 259.08 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a578883-c86c-4510-963a-7207be818f32")
+	)
+	(label "Chan1"
+		(at 218.44 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fa500e9-64ad-48c0-b33f-b3f3ce16a164")
+	)
+	(label "DriverOutN4"
+		(at 66.04 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "828a0b4c-78b1-4f7f-9729-61b0c82c7f8a")
+	)
+	(label "Coil6"
+		(at 123.19 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96dd406c-2624-40a2-9b25-98b80f396e71")
+	)
+	(label "DriverOutN2"
+		(at 158.75 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa7667af-05b5-48da-8f08-87f8d5eea377")
+	)
+	(label "Chan0"
+		(at 218.44 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab4a70f6-22d8-4a7b-88bf-70beaa546648")
+	)
+	(label "{DriverOut}"
+		(at 165.1 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4a225d-4767-4930-aa8f-a0b0ec57f470")
+	)
+	(label "DriverOutN3"
+		(at 204.47 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b62e6b29-591a-4e79-a73b-e4ce5c205357")
+	)
+	(label "Coil0"
+		(at 259.08 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6dbf3bb-760f-4de3-be3e-ac521567e582")
+	)
+	(label "DriverOutP0"
+		(at 66.04 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb5ad9fc-9f07-4b0b-9bf4-809cfdd14c33")
+	)
+	(label "DriverOutP2"
+		(at 158.75 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ceb47183-b15d-41f4-bc55-e51f7a2a16af")
+	)
+	(label "{Channels}"
+		(at 165.1 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22fe7cb-c283-4a2b-826f-5cdfa543c79a")
+	)
+	(label "Coil6"
+		(at 259.08 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d749c2ec-0863-4f7d-928d-0dc78658c6be")
+	)
+	(label "DriverOutP4"
+		(at 66.04 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dab35845-a608-4c9f-a38d-5fec463b50b9")
+	)
+	(label "{DriverOut}"
+		(at 220.98 26.67 180)
+		(effects
+			(font
+				(size 2.159 2.159)
+				(thickness 0.4318)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddfc1e2a-24a6-4e91-8581-fc47a62f9b1d")
+	)
+	(label "DriverOutP3"
+		(at 204.47 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4ab647f-0229-4da8-952b-ddc94717b86b")
+	)
+	(label "DriverOutN5"
+		(at 111.76 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec754185-dbd4-4d3c-bbfc-60805817fcfb")
+	)
+	(label "DriverOutP5"
+		(at 111.76 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4185e6f-eac9-44df-abaf-30c9cd2cfb44")
+	)
+	(label "Coil2"
+		(at 123.19 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f609b3bf-4b8e-4d19-9699-77c5fe6b8a26")
+	)
+	(label "DriverOutP7"
+		(at 204.47 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "feaa9819-336f-408b-9fa7-d7dcdb44de21")
+	)
+	(label "Coil3"
+		(at 168.91 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffdb269d-b74f-4136-bc5b-7d02db4d57bb")
+	)
+	(hierarchical_label "{Channels}"
+		(shape input)
+		(at 191.77 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbe5ddae-a522-420e-bf1c-62a57b0bfe5a")
+	)
+	(hierarchical_label "{DriverOut}"
+		(shape input)
+		(at 191.77 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8415b33-3f8f-4c96-bb98-f41c01f28d58")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "074cff89-c2e2-4301-b375-23930d37b353")
+		(property "Reference" "#PWR020"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5635be30-39c9-41a8-8a36-15d54e882dfb")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 44.45 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10183052-dc83-4b93-a41e-844551609d1a")
+		(property "Reference" "RELAY1"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da387ab-535f-4a12-953b-d35da13ad86e")
+		)
+		(pin "2"
+			(uuid "59c5f284-b205-4bc8-b59f-f59eed8b3640")
+		)
+		(pin "3"
+			(uuid "2677f16f-21de-409b-9d64-ddd2eb5a7f3f")
+		)
+		(pin "4"
+			(uuid "15892fea-cc17-4e2b-9280-2de670c3092d")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 57.15 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "16506932-d2be-479e-b280-60a21c51b3ac")
+		(property "Reference" "SB17"
+			(at 60.452 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 54.61 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 57.15 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 57.15 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 57.15 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b99c73e9-bb60-4d99-931e-21cb1991ba12")
+		)
+		(pin "1"
+			(uuid "b2dcab58-2f03-437d-bcbd-f28c332026b6")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19cbbff2-770c-455f-ba32-e46347ced643")
+		(property "Reference" "#PWR025"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a93164d8-1633-40ec-abaa-79864b3d650c")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 137.16 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21665107-2f83-462b-bbdf-d9b751cac208")
+		(property "Reference" "RELAY3"
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea5d825-a9e5-4a36-b3f7-71db103ef6eb")
+		)
+		(pin "2"
+			(uuid "f9351c24-89fa-4136-94ad-411ee3cd2d33")
+		)
+		(pin "3"
+			(uuid "06c8f484-b103-4587-b5fc-f5aff5fa669f")
+		)
+		(pin "4"
+			(uuid "9fc69bc8-f4a7-4fa9-ab62-1f16008f7c0e")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 102.87 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2250cc27-d611-499e-b819-9bb0fe1c5e1c")
+		(property "Reference" "SB10"
+			(at 106.172 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 100.33 60.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 102.87 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 102.87 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 102.87 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a3dcea5-5c35-461b-bbc4-4478bb4b5fd8")
+		)
+		(pin "1"
+			(uuid "70cb4f8b-5e64-4c54-a70c-953142af7a7f")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 53.34 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f42bd3-e37e-4377-b3d0-8e03311670e3")
+		(property "Reference" "SB1"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 52.0701 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58f44cb3-c796-4efd-96ed-85f8647878a6")
+		)
+		(pin "1"
+			(uuid "0cf95352-e3b6-4725-93ea-e2a9fa054e1b")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 137.16 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2afbaf18-3d5f-40c9-8259-19a25d7b442e")
+		(property "Reference" "RELAY7"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf5b4ca9-f901-4574-bc11-6713394e7eec")
+		)
+		(pin "2"
+			(uuid "a3d7c934-6b4e-4d8c-a9b0-20c6a46b2ecf")
+		)
+		(pin "3"
+			(uuid "08a83e74-3a41-43ea-9216-4d56585aaaf5")
+		)
+		(pin "4"
+			(uuid "9ae5c701-f124-4ba1-aa5a-0f052c4de426")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 138.43 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30eed138-373e-4fc4-9248-4ec21d4e6509")
+		(property "Reference" "#PWR028"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7932db1-04e1-45ef-90e4-12493b39cd01")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 53.34 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "335399a0-1074-4e54-8443-9c2583102ce8")
+		(property "Reference" "SB13"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 52.0701 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3b72f87-a0b8-4968-beb9-5bb93f7ac9d1")
+		)
+		(pin "1"
+			(uuid "0e7fb177-8dc9-4d80-bc66-c95064fd9828")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 195.58 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3440d3dc-7791-4763-8537-a6405f973b90")
+		(property "Reference" "SB24"
+			(at 198.882 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 193.04 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 195.58 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 195.58 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 195.58 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c42e49b5-09e9-42c7-ac73-201b9bb282cc")
+		)
+		(pin "1"
+			(uuid "7d18c575-7351-47b0-8e48-efa4a39afb80")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 57.15 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "37c69263-5df8-475e-9b22-ffa76f95fac5")
+		(property "Reference" "SB21"
+			(at 60.452 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 54.61 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 57.15 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 57.15 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 57.15 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9df85abe-5116-47e7-ac38-d36559e7ad03")
+		)
+		(pin "1"
+			(uuid "fef50660-b130-4d1f-884f-1a06da149915")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 57.15 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa65700-7928-4f9f-a43d-2fc74b51f196")
+		(property "Reference" "SB5"
+			(at 60.452 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 54.61 53.3401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 57.15 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 57.15 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 57.15 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ba94310-7eb4-4afd-ba3a-fe9e6da88f85")
+		)
+		(pin "1"
+			(uuid "9a462886-cdbb-435a-8734-d48488122062")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 182.88 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac0eec7-c263-4394-a97a-1f55be45cf2a")
+		(property "Reference" "RELAY8"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25b7310-767a-4d27-9d51-89a0627be7f7")
+		)
+		(pin "2"
+			(uuid "37e77c83-01b6-4d1a-b0bd-648a706a6e8b")
+		)
+		(pin "3"
+			(uuid "baa783ba-9d82-4969-9a8f-f88aa28c9e59")
+		)
+		(pin "4"
+			(uuid "740ec3f1-37eb-4de6-9d1a-187633762f08")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 102.87 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ce25966-b649-4638-9019-a0bfad1f3f85")
+		(property "Reference" "SB6"
+			(at 106.172 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 100.33 53.3401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "667cdc75-248c-48e9-9964-a1d4d0b02e7b")
+		)
+		(pin "1"
+			(uuid "88ccd12d-32b2-4408-b5de-a7e7e63c0cbd")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 91.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3376fa-3281-442e-837a-86f9fe798c24")
+		(property "Reference" "#PWR017"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9441b84b-dba5-4b80-9d5c-d2a652a38db5")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 102.87 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "436242a7-fda7-4b7d-a926-167c92029893")
+		(property "Reference" "SB18"
+			(at 106.172 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 100.33 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 102.87 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 102.87 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 102.87 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cffc0fde-d027-4d68-bc02-2819de1f5fa3")
+		)
+		(pin "1"
+			(uuid "bb0130b1-7c72-4770-8555-0262d4f9bc3f")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 30.48 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4add4f4f-77eb-4103-9804-3b55ceb871d7")
+		(property "Reference" "DFB1"
+			(at 29.464 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 27.94 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 30.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 30.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 30.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 30.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 30.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 30.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b943ac51-88c9-48d2-a105-23d808305d93")
+		)
+		(pin "2"
+			(uuid "9d203804-9a1a-4620-873a-2f4416d3e56a")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f202388-627f-4a64-898b-8e845c6299ce")
+		(property "Reference" "#PWR033"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806bcc67-c803-4178-aa5c-fbb80eb1dbc3")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 138.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50175ca7-e170-4e35-8876-f0e2d94fec03")
+		(property "Reference" "#PWR018"
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "987d89d5-7279-4db2-bc91-2ff1b8ff67cd")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 146.05 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "541b4cbe-0ca7-41d5-989f-57ab56af70d2")
+		(property "Reference" "SB3"
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 144.7801 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e41200da-8fa0-43a7-ad7a-9a1890bed43a")
+		)
+		(pin "1"
+			(uuid "a11e35e0-41c4-4278-9729-44cc40d2b8d2")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 99.06 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a17c98-5bd1-4a35-a614-e41b6fc80652")
+		(property "Reference" "SB14"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 97.7901 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb57e006-9c70-44b6-884f-da14fd8c1840")
+		)
+		(pin "1"
+			(uuid "c9a5bb81-4eed-4797-bcaa-163b8b54e8c5")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a05983-1b21-45b9-a5a5-d3575dec737f")
+		(property "Reference" "#PWR030"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fcd764f-01e9-4779-981a-52127b03fabc")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64cbd5d1-7e02-430a-a6aa-467258f7aea0")
+		(property "Reference" "#PWR032"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc74130-65cb-4901-8fe0-bd26764d15b7")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 90.17 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "669e587d-bf26-4a2f-a96d-be4751d5bde4")
+		(property "Reference" "RELAY6"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a551c32-7046-4e33-be27-67238fc31d03")
+		)
+		(pin "2"
+			(uuid "18c0d3be-af93-4a07-8a8f-d79f53d0f956")
+		)
+		(pin "3"
+			(uuid "b27f19bc-dfb3-48f3-868b-e89b20b01a28")
+		)
+		(pin "4"
+			(uuid "616c9567-fbea-407e-b926-c1cfece535f4")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 44.45 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6944e865-f0a6-444a-b334-7b773b89c16c")
+		(property "Reference" "RELAY5"
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18002703-fe70-4eb1-9141-f64d1d884629")
+		)
+		(pin "2"
+			(uuid "915310e5-06c3-4d4c-a167-535d65afc12e")
+		)
+		(pin "3"
+			(uuid "e44ef151-3ea5-4abf-90ff-0f1d7f34ab23")
+		)
+		(pin "4"
+			(uuid "779651ef-f4fe-443c-bd7c-53157ca5912b")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 91.44 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d05f9fd-b2d2-4f02-80a9-e0cdc605c1ea")
+		(property "Reference" "#PWR027"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b237686-2541-442c-80ff-004ef786f37b")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 76.2 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74a9ec0b-dd2a-4120-835a-9fe716f7a43c")
+		(property "Reference" "DFB6"
+			(at 75.184 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 73.66 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 76.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66c7a0a-9a87-41c0-bde9-162d92769194")
+		)
+		(pin "2"
+			(uuid "7a3793b0-7293-4b30-b4db-c5daf1162431")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 184.15 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d755cd-8f30-40f2-bcf4-804559cee88a")
+		(property "Reference" "#PWR029"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304a11be-fb02-4121-ad77-fe0022649fea")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 30.48 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "782a9bfe-dcf0-480a-9ed0-43c89b251c4c")
+		(property "Reference" "DFB5"
+			(at 29.464 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 27.94 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 30.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 30.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 30.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 30.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86847e2-8b1f-465b-b5fa-a1258def806c")
+		)
+		(pin "2"
+			(uuid "710f16c4-c7d6-47c5-8c26-b661a525e5b3")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 90.17 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cbefe04-431b-4d41-97b7-8b2836718fa5")
+		(property "Reference" "RELAY2"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff76639d-cd52-48fb-af7b-f821367ecc7e")
+		)
+		(pin "2"
+			(uuid "06e5ab64-ab00-4165-9d4c-a87ef020a2e2")
+		)
+		(pin "3"
+			(uuid "876c6ec8-ade7-4075-a771-ed4bc6b996a1")
+		)
+		(pin "4"
+			(uuid "0484e62e-1612-4db0-ac36-838ec9f2c953")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 195.58 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81d96693-30cd-4daf-9956-0c5e569603e1")
+		(property "Reference" "SB20"
+			(at 198.882 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 193.04 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 195.58 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 195.58 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 195.58 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "648243fc-c5e2-4651-92e0-5c476746c00f")
+		)
+		(pin "1"
+			(uuid "32ffcb31-d0c8-4428-a976-ad9ba07a2f79")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 168.91 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833c3fe8-2105-4180-9b04-e57ac289737a")
+		(property "Reference" "DFB8"
+			(at 167.894 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 166.37 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 168.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5b5479b-b365-4a02-a490-5c74250fa0e8")
+		)
+		(pin "2"
+			(uuid "482ab1ce-19c5-4d41-a611-a2c2c75e2d20")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 149.86 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "83d9a13a-a0c5-4e21-84a2-d5394aa3d1a5")
+		(property "Reference" "SB11"
+			(at 153.162 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 147.32 60.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 149.86 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 149.86 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 149.86 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71111d14-6143-434d-af9a-f3f587930dab")
+		)
+		(pin "1"
+			(uuid "0a715588-af6a-4716-beab-40615a43d8d4")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 168.91 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "840a78eb-3d66-4790-9e20-11e29c405120")
+		(property "Reference" "DFB4"
+			(at 167.894 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 166.37 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 168.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "489e0eb5-4476-4bd3-a0d2-2b24d9102536")
+		)
+		(pin "2"
+			(uuid "13ac8756-fd32-44f8-86ca-549f11e5b1bc")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 191.77 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "92629fac-ad1a-4483-8681-bc9928d5c099")
+		(property "Reference" "SB16"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 190.5001 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a25ea025-1deb-4aa9-b792-d90d2f6f87bd")
+		)
+		(pin "1"
+			(uuid "a06aa2cc-30c6-4052-be20-f6ecde3feafe")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 149.86 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acb1763-355d-452a-83a8-530d8b49fb71")
+		(property "Reference" "SB19"
+			(at 153.162 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 147.32 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 149.86 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 149.86 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 149.86 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42d47f1f-381d-435b-8f42-626de342dc82")
+		)
+		(pin "1"
+			(uuid "10ef73b8-36c0-4e96-85a3-e420d0881506")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 99.06 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0456872-0ae9-4ded-a74a-d16a0f876cb5")
+		(property "Reference" "SB2"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 97.7901 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71f844e4-da0a-45ec-b53d-e4066261a1c7")
+		)
+		(pin "1"
+			(uuid "44073a21-176c-4b12-abf1-0d3219618bc6")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 184.15 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a11f98a4-4a35-4bc6-88db-74c4d5606366")
+		(property "Reference" "#PWR019"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "635bf157-c7fc-42f0-abd4-4333a6bfe0af")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 254 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b091c3-881d-44cf-bd07-3e840722cbc5")
+		(property "Reference" "#PWR024"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22bce84-a0ad-48d2-87d7-8fbca638b0d3")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 195.58 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a526e92e-2b02-45a2-8f6b-615fd9de9420")
+		(property "Reference" "SB12"
+			(at 198.882 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 193.04 60.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 195.58 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 195.58 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 195.58 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c20902eb-aba2-48a0-8240-262ffb2e7759")
+		)
+		(pin "1"
+			(uuid "f3bc9903-5093-4399-82f9-d3b271f0b9f1")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 123.19 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b193265c-5615-449e-ba68-b299afc493ed")
+		(property "Reference" "DFB7"
+			(at 122.174 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 120.65 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c477ae37-d813-4e0d-b102-2653f15cfe9e")
+		)
+		(pin "2"
+			(uuid "bfa13aab-d5b7-4993-89c0-22da442d47ae")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:ALDP112W")
+		(at 182.88 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31d1db3-7b2f-4e52-bc2a-cde7fb277a02")
+		(property "Reference" "RELAY4"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ALDP112W"
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY_ALDP112W"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "PANASONIC EW/AROMAT"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.9mm"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=eda"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2024.10"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ALDP112W/MAT/view-part/?ref=snap"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ALDP112W"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Electromechanical Relay 12VDC 720Ohm 5A SPST-NO (20.5x7.2x15.3)mm THT Power Relay"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electric Works"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adc60329-711c-432a-95ba-969e9a9889a2")
+		)
+		(pin "2"
+			(uuid "92c26a7e-9b36-4bcd-8ecc-2ec2b7fba742")
+		)
+		(pin "3"
+			(uuid "31c0b0af-03fd-49dc-8c62-4489accb95a6")
+		)
+		(pin "4"
+			(uuid "326997d4-e977-425e-b11c-af42c124e80f")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "RELAY4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 149.86 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b718de68-c5a3-487e-90ce-735074fc87d3")
+		(property "Reference" "SB23"
+			(at 153.162 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 147.32 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 149.86 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 149.86 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 149.86 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a7a3e6d-af70-4052-9dd1-673d7f396ab6")
+		)
+		(pin "1"
+			(uuid "2807032d-0c93-4666-b539-25f2b39114c7")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbee4ec5-ffc9-437b-b7bd-7378bc304b45")
+		(property "Reference" "#PWR031"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "834fefae-0dd6-4e9a-a7a3-b27e6dbf893d")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 45.72 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd3dd9d-f9f4-416f-bb56-76058da39f71")
+		(property "Reference" "#PWR016"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16500a29-e60f-4eda-b7ed-003876d10767")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4ed3e11-2ef0-4418-99c3-777d46cba495")
+		(property "Reference" "#PWR023"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3ebe23a-0cbb-48bc-b9b7-ea841839f043")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae9edd4-e54d-45d9-8f2d-a60b23f82f71")
+		(property "Reference" "#PWR021"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7152cde-373e-448c-b037-d61eff27184f")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 76.2 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdcae326-b32c-4813-8da8-e391c721e625")
+		(property "Reference" "DFB2"
+			(at 75.184 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 73.66 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 76.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 76.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 76.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 76.2 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d01af300-8a14-40c3-9f8f-66c6ca8701ad")
+		)
+		(pin "2"
+			(uuid "85ac0e97-50b3-482e-8ea4-440d7f78ef53")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 45.72 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db465c35-7da4-49c6-b8f8-de5b97836688")
+		(property "Reference" "#PWR026"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0315077-0f76-428c-92af-ece652facf5d")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 57.15 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2785ae6-eaa3-4bd9-93fa-252e814c5286")
+		(property "Reference" "SB9"
+			(at 60.452 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 54.61 60.9601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 57.15 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 57.15 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 57.15 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d75ef2c-eac4-4535-8ec6-2018006e7b69")
+		)
+		(pin "1"
+			(uuid "a5c2d575-bc9d-480f-b0b1-6fc6582992bf")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e758400a-b8cc-44b0-a732-133a684b128c")
+		(property "Reference" "#PWR022"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68ab8635-7cf1-40f7-aaac-8571190a0be4")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 123.19 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eebeb072-a51c-48b6-8235-6bfac8e5e4ed")
+		(property "Reference" "DFB3"
+			(at 122.174 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 120.65 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 123.19 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 123.19 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 123.19 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 123.19 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f250910e-26c7-47a5-8865-b8b1dbfc62c9")
+		)
+		(pin "2"
+			(uuid "1dc890f1-6a7a-4708-a0d3-e0c4252ff912")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "DFB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 149.86 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2f418bb-4e25-453a-85dd-f2df7a264497")
+		(property "Reference" "SB7"
+			(at 153.162 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 147.32 53.3401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a87953ab-5ae0-486b-801d-73b15fd38e4f")
+		)
+		(pin "1"
+			(uuid "ff4b6be2-de0b-4953-aa5f-35534b5af50e")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:TBD62783AFWG")
+		(at 238.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f424f286-73c0-4f0f-8147-68edacd117c8")
+		(property "Reference" "LOAD1"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62783AFWG"
+			(at 238.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-18_7x12.5mm_P1.27mm"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "3f4a5c54-ecb4-4dc6-a86d-32d9dcd520dc")
+		)
+		(pin "16"
+			(uuid "b1430db8-400a-4da2-86af-ef61667a9f49")
+		)
+		(pin "12"
+			(uuid "0d4c2568-c7af-4fbf-9eb7-d76da151dde0")
+		)
+		(pin "15"
+			(uuid "00db27cb-6699-42cf-b639-8dd03e6cdf20")
+		)
+		(pin "2"
+			(uuid "65d34126-31c5-4d0f-8f1b-4306103928d6")
+		)
+		(pin "18"
+			(uuid "4b74e8aa-abde-45f8-bebc-59dc45d2b322")
+		)
+		(pin "14"
+			(uuid "2d6dfd27-c4f1-4c01-b99e-712319354267")
+		)
+		(pin "3"
+			(uuid "e949b305-76d0-4cd8-9665-544596cd081e")
+		)
+		(pin "6"
+			(uuid "313462cd-6c8f-49a9-8410-c71709cfb1f9")
+		)
+		(pin "1"
+			(uuid "38bec238-f277-41d1-83fe-8e9cc982a01b")
+		)
+		(pin "5"
+			(uuid "7b569bc0-0067-458d-9f62-97fe3259f711")
+		)
+		(pin "10"
+			(uuid "80cde3d3-599c-4a80-891f-43b59c2b5a36")
+		)
+		(pin "4"
+			(uuid "a9a2abc7-ad95-4de4-9c51-11530c77d326")
+		)
+		(pin "7"
+			(uuid "ffd35ea6-49fc-4018-a5bf-aa0a844b562b")
+		)
+		(pin "8"
+			(uuid "0ffb968c-db62-493a-b586-7e68e8102796")
+		)
+		(pin "17"
+			(uuid "8d212039-ddfe-403e-9028-2c77fa99bcf5")
+		)
+		(pin "13"
+			(uuid "66e0ec93-69f9-4822-a711-3a335831f917")
+		)
+		(pin "11"
+			(uuid "abb66bfc-8467-4d9c-b8d6-a7488ea6531a")
+		)
+		(instances
+			(project ""
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "LOAD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 191.77 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb726592-233e-4e5e-b516-5c808b0b5182")
+		(property "Reference" "SB4"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 190.5001 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68433892-5880-4a00-9f43-b2197d57ff43")
+		)
+		(pin "1"
+			(uuid "7fcb0b25-5c01-4aa2-b65c-188fcb67ed8e")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 195.58 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc78c03-569f-4181-be6b-415274f4fd57")
+		(property "Reference" "SB8"
+			(at 198.882 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 193.04 53.3401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 195.58 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 195.58 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 195.58 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28bfe7bb-6a0e-4675-85b3-df5424a5112c")
+		)
+		(pin "1"
+			(uuid "b69fbd45-10a4-45e6-bfa7-1bc52cb175d4")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 146.05 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbd6c36a-14d2-498a-9a19-7c94ab0deb0c")
+		(property "Reference" "SB15"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 144.7801 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0c4d98b-4e92-4756-b6af-16e32cdd4929")
+		)
+		(pin "1"
+			(uuid "6c4ef755-2698-4c27-ba5c-af676301ec81")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 102.87 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcf289af-5a86-4fc4-8b14-93bfa3982b91")
+		(property "Reference" "SB22"
+			(at 106.172 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 100.33 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 102.87 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 102.87 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 102.87 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f0df4f9-d8a9-4d52-9163-703aa9b88520")
+		)
+		(pin "1"
+			(uuid "63c377e9-8818-40b7-854b-fb694925f712")
+		)
+		(instances
+			(project "CANIO-Board"
+				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/2ac81ea5-d7e0-4ba7-9177-0b729c928fc7"
+					(reference "SB22")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
