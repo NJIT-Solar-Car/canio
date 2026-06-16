@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>index</title>
+  <style>
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 30px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 24px;
+    padding: 0;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+    margin: 24px 0 6px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 21px;
+}
+h5 {
+    font-size: 18px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 960px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 960px;
+    white-space: pre-wrap;
+    background-color: #e0e0e0;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+    padding: 3px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    margin: 1em 2em;
+    max-width: 960px;
+}
+blockquote p {
+    color: #666;
+    max-width: 960px;
+}
+hr {
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+table {
+    border-collapse: collapse;
+    margin: 10pt auto;
+    border: 1px solid #CCC;
+}
+table thead {
+    background-color: #EEE;
+}
+table thead td {
+    color: #666;
+}
+table td {
+    padding: 0.5em 1em;
+    border: 1px solid #CCC;
+}
+img, figcaption {
+	max-width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+figcaption {
+	margin: 7px auto;
+}  </style>
+</head>
+<body>
+<h1 id="njit-solar-car-can-io-board-hardwarefirmware-development">NJIT
+Solar Car | CAN-IO Board Hardware/Firmware Development</h1>
+<ul>
+<li><a href="https://github.com/NJIT-Solar-Car/canio">Main
+Github</a></li>
+<li><a href="https://njit-solar-car.github.io/canio/html">Docs for
+code</a></li>
+</ul>
+<h2 id="fabrication-notes">Fabrication notes</h2>
+<ul>
+<li>Board is 4 layer, 100mm*100mm</li>
+<li>It should be set to 1.6mm, using the FR4 TG135 (default) core, and
+JLC04161H-7628 stackup from JLCPCB.</li>
+<li>Outer copper weight should be <em>1oz</em> and inner copper weight
+<em>0.5oz</em> (not the 2oz and 1oz which the design centered around
+earlier). This allows a maximum <strong>2A current draw</strong> from
+each output channel.</li>
+<li>If possible, order the stencil as well</li>
+<li>Use DHL or FedEx shipping, the Global standard direct line is cheap
+but takes upwards of 2 weeks for shipping alone.</li>
+<li>Rough total, including stencil, board, shipping, and tariffs should
+be <strong>~$50-70</strong>.</li>
+</ul>
+<h2 id="mechanical-notes">Mechanical Notes</h2>
+<ul>
+<li>Dimensions are 100mm*100mm, with 3mm fillet on corners.</li>
+<li>The two bottom PTHs are 4.25mm away from the bottom and side edges,
+and the top PTHs are 25mm away from the top.</li>
+<li>WAGO Connectors are spaced 3.371mm from each other and are spaced
+evenly about the center of the board, 2.68mm away from the top
+edge.</li>
+<li>When on, 12V is supplied to the LEFT side of the WAGO connector when
+facing it. 12V at the port above the small silkscreen arrow.</li>
+<li>Relays are Panasonic SPST-NO relays with no internal flyback diode.
+Coil voltage and current consumption is 12V 30mA, so 360mW per
+relay.</li>
+<li>High current output passes through solder bridges, 1mm traces (1oz
+outer copper, 2.4A current capacity), relays (5A), and WAGO 2601
+connector. The weak link is the solder bridge which can handle 2A per
+channel.</li>
+<li>The input power screw terminal is capable of 15A continuous. High
+current pins have either 1mm traces to/from or 2 spokes of 0.5mm thermal
+relief.</li>
+</ul>
+<h2 id="assembly-notes">Assembly Notes</h2>
+<ul>
+<li>There are two CAN connectors, but only one has to be soldered
+(either the screw terminal, or the 3 pin DTF).</li>
+<li>The radial capacitors are electrolytic and thus <em>must</em> be
+installed with the correct polarity.</li>
+<li>The columns of solder bridges (shown below) correspond to the 8
+relays and outputs. If, for a given output channel (column of SBs), the
+<em>top two</em> are bridged via a thick dollop of solder, the on-state
+of the relay will present 12V at one end of the connector and ground at
+the other. <strong>On the other hand</strong>, if <em>only the
+bottom</em> SB is bridged with solder, the on-state of the relay will
+simply connect the 2 terminals of the WAGO connector internally. This is
+handy if you want to drive something with a separate power source, or
+with a different voltage.</li>
+</ul>
+<figure>
+<img src="./pics/SB.png" alt="Array of solder bridges" />
+<figcaption aria-hidden="true">Array of solder bridges</figcaption>
+</figure>
+<!-- Links -->
+</body>
+</html>
