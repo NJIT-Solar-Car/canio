@@ -527,7 +527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b20f77b-8230-4bf1-b171-b8b89ec77363")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 201.93 106.6799 0)
 			(effects
 				(font
@@ -575,7 +575,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -719,7 +719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94473d4f-ee16-4811-af7c-d18b160bda3d")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 167.64 129.5399 0)
 			(effects
 				(font
@@ -767,7 +767,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)

@@ -8483,7 +8483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf746fcb-005c-400b-a69a-6554125a6708")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 66.9133 91.44 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 		(instances
 			(project "CANIO-Board"
 				(path "/a11f98b2-3b09-4cf9-8535-19e509fe91b9/4dc55ad2-a09c-41dc-af6c-276c818ee09a"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
