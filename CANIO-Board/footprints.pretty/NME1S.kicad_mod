@@ -1,0 +1,135 @@
+(footprint "NME1S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.33 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de4f1707-20b4-4c6b-a48b-1a70a780d93a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NME1S"
+		(at 0 -7.83 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7cd952e5-20c5-4195-bf7c-5e77cab0355e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8f277b0-6583-4f79-a660-e27f3af22bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab7a4e2-065a-4d3a-9e9a-3f58578af464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.75 -3)
+		(end 5.75 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a4eb0ddf-8a1f-4779-9e1c-eb79ae52416f")
+	)
+	(fp_rect
+		(start -6.24 -3.4)
+		(end 6.17 3.49)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "12c14406-042d-4439-8de7-bcf13adf4e75")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.33 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78cb11a2-7e46-4723-87a3-350a108ac50d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 2.08)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4aae7d85-178a-4b03-a422-57531876a66c")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 2.08)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e5d69e9-8458-4f02-bda1-eab389f991c9")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 2.08)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ce08271-8a9a-4c06-833b-777f667b401c")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 2.08)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6a60834-f708-426c-80cd-a9d6709a314e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3DModels/NME1S.step"
+		(offset
+			(xyz 0 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
