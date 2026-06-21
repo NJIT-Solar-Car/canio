@@ -48426,6 +48426,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "SWCLK"
+		(at 120.75 134.87 0)
+		(layer "F.SilkS")
+		(uuid "151147f5-3c22-498a-9587-a904a7f859d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "PB9 - GPIO0"
 		(locked yes)
 		(at 188.1 146.59 0)
@@ -48465,6 +48477,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "SWDIO"
+		(at 120.79 132.25 0)
+		(layer "F.SilkS")
+		(uuid "23d1b621-cc75-4b45-a9c1-db0e8ee69762")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "SWD"
 		(locked yes)
 		(at 122.1 140.85 0)
@@ -48500,6 +48524,18 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "NRST"
+		(at 120.8 137.52 0)
+		(layer "F.SilkS")
+		(uuid "4ecfb1fc-0f90-467f-b8dc-28f1b9c0849b")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 			(justify left)
