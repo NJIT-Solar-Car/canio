@@ -1,0 +1,7 @@
+../Core/Inc/relay.h:20:13:write_gpio	1
+../Core/Src/main.c:77:5:main	1
+../Core/Src/main.c:159:6:SystemClock_Config	3
+../Core/Src/main.c:201:13:MX_FDCAN2_Init	2
+../Core/Src/main.c:244:13:MX_GPIO_Init	1
+../Core/Src/main.c:314:6:StartDefaultTask	1
+../Core/Src/main.c:331:6:Error_Handler	1

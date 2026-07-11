@@ -1,0 +1,8 @@
+../Core/Inc/relay.h:20:13:write_gpio	1
+../Core/Src/relay.c:17:13:input_pressed	3
+../Core/Src/relay.c:32:6:indicator_action	5
+../Core/Src/relay.c:60:6:left_indicator_action	1
+../Core/Src/relay.c:64:6:right_indicator_action	1
+../Core/Src/relay.c:71:20:write_hazard	1
+../Core/Src/relay.c:77:6:hazard_action	5
+../Core/Src/relay.c:105:6:relay_task	1
