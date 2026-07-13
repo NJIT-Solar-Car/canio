@@ -46,7 +46,7 @@ void right_indicator_action();
 // hazard
 void hazard_action();
 
-void relay_task();
+void relay_task(void * pvParameters);
 
 #define ARRAY_SIZE(x) (sizeof(x) / sizeof((x)[0]))
 

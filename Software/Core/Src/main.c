@@ -53,6 +53,13 @@ const osThreadAttr_t defaultTask_attributes = {
 };
 /* USER CODE BEGIN PV */
 
+osThreadId_t relayTaskHandle;
+const osThreadAttr_t relayTask_attributes = {
+	.name = "relayTask",
+	.priority = (osPriority_t) osPriorityNormal,
+	.stack_size = 256 * 4
+};
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -128,7 +135,8 @@ int main(void)
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
-  relay_task();
+  relayTaskHandle = osThreadNew(relay_task, NULL, &relayTask_attributes);
+
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
 
@@ -143,6 +151,8 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  
+
   while (1)
   {
     /* USER CODE END WHILE */

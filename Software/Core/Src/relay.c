@@ -102,7 +102,7 @@ void hazard_action() {
 	}
 }
 
-void relay_task(void *argument)
+void relay_task(void * pvParameters)
 {
 	for (;;) {
 		now = osKernelGetTickCount();
