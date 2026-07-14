@@ -31,13 +31,15 @@ int main(void) {
 	// Configure GPIOs as inputs
 	DDRC &= ~((1 << LEFT_INPUT) |
 			(1 << RIGHT_INPUT) |
-			(1 << HAZARD_INPUT));
+			(1 << HAZARD_INPUT) |
+			(1 << HORN_INPUT));
 
     // turn all leds off
     PORTD &= ~((1 << INDICATOR_LEFT) |
 				(1 << INDICATOR_RIGHT) |
 				(1 << HAZARD_LEFT) |
-				(1 << HAZARD_RIGHT));
+				(1 << HAZARD_RIGHT) |
+				(1 << HORN));
 
     while (1) {
 		switch (getInput()) {
