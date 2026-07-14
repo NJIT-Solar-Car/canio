@@ -89,7 +89,10 @@ int main(void) {
 				break;
 		}
 
-        _delay_ms(250);
+		// Only wait if lights are on
+        if (PORTD != 0x0) {
+			_delay_ms(250);
+		}
     }
 
     return 0; // Standard flow control requirement, never reached
