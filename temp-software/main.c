@@ -5,14 +5,14 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define INDICATOR_LEFT	PD2
-#define INDICATOR_RIGHT	PD3
-#define HAZARD_LEFT		PD4
-#define HAZARD_RIGHT	PD5
+#define INDICATOR_LEFT	PORTD2
+#define INDICATOR_RIGHT	PORTD3
+#define HAZARD_LEFT		PORTD4
+#define HAZARD_RIGHT	PORTD5
 
-#define LEFT_INPUT		PC2
-#define RIGHT_INPUT		PC3
-#define HAZARD_INPUT	PC4
+#define LEFT_INPUT		PORTC2
+#define RIGHT_INPUT		PORTC3
+#define HAZARD_INPUT	PORTC4
 
 uint8_t left_state, right_state, hazard_state;
 
@@ -27,7 +27,7 @@ int main(void) {
 
 	
 	// Configure GPIOs as inputs
-	DDRD &= ~((1 << LEFT_INPUT) |
+	DDRC &= ~((1 << LEFT_INPUT) |
 			(1 << RIGHT_INPUT) |
 			(1 << HAZARD_INPUT));
 
