@@ -50,6 +50,7 @@ int main(void) {
 					PORTD &= ~(1 << INDICATOR_LEFT);
 					left_state = 0;
 				}
+				break;
 			case 2:
 				// Right indicator
 				if (!right_state) {
@@ -59,6 +60,7 @@ int main(void) {
 					PORTD &= ~(1 << INDICATOR_RIGHT);
 					right_state = 0;
 				}
+				break;
 			case 3:
 				// Hazards
 				if (!hazard_state) {
@@ -68,18 +70,21 @@ int main(void) {
 					PORTD &= ~((1 << HAZARD_LEFT) | (1 << HAZARD_RIGHT));
 					hazard_state = 0;
 				}
+				break;
 			case 4:
 				// Horn
 				if (!horn_state) {
 					PORTD |= (1 << HORN);
 					horn_state = 1;		
 				}
+				break;
 			default:
 				PORTD = 0x0;
 				horn_state = 0;
 				hazard_state = 0;
 				left_state = 0;
 				right_state = 0;
+				break;
 		}
 
         _delay_ms(250);
@@ -96,7 +101,7 @@ uint8_t getInput() {
 		return 2;
 	} else if (PINC & (1 << HAZARD_INPUT)) {
 		return 3;
-	} else if (PINC & (1 << HORN)) {
+	} else if (PINC & (1 << HORN_INPUT)) {
 		return 4;
 	}
 	return 0;
