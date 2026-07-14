@@ -27,9 +27,9 @@ int main(void) {
 
 	
 	// Configure GPIOs as inputs
-	DDRD &= (1 << LEFT_INPUT) |
+	DDRD &= ~((1 << LEFT_INPUT) |
 			(1 << RIGHT_INPUT) |
-			(1 << HAZARD_INPUT);
+			(1 << HAZARD_INPUT));
 
     // turn all leds off
     PORTD &= ~((1 << INDICATOR_LEFT) |
