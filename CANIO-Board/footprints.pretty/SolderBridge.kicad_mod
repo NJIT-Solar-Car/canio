@@ -1,0 +1,76 @@
+(footprint "SolderBridge"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.75 -5.37 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "818757f1-1d6e-4bab-a652-8bc7be2e8c3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SolderBridge"
+		(at 1.75 -3.87 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46817b25-1235-4156-b3f6-5bdda4938c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3adef5e9-0dd2-4a2b-b70b-fe343aafa61c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4156628-df58-43a7-aaee-68c2fd3e5b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 -2.37 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8702050-bd83-402b-b125-7c86e6a9bcb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.5 -0.49)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "980a1af4-c036-4c62-972c-3f7246be9377")
+	)
+	(embedded_fonts no)
+)
